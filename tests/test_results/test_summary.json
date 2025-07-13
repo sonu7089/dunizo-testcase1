@@ -1,0 +1,74 @@
+{
+  "test_run_timestamp": "2025-07-13T19:42:57.629586",
+  "total_tests": 3,
+  "successful_tests": 3,
+  "failed_tests": 0,
+  "results": [
+    {
+      "test_name": "test_1_guest_bathroom",
+      "transcript": "We're looking to upgrade our guest bathroom — it's about 3.5 square meters. We'd like to remove the existing bathtub and replace it with a walk-in shower. The sink and mirror cabinet need to be modernized too. We'd also appreciate help choosing space-saving fixtures. Budget is moderate. We're in Lyon.",
+      "status": "SUCCESS",
+      "timestamp": "2025-07-13T19:42:09.216935",
+      "result_file": "tests/test_results\\test_1_guest_bathroom_result.json",
+      "output_file": "tests/test_results\\test_1_guest_bathroom_output.txt",
+      "summary": {
+        "total_materials_cost": 306,
+        "total_labor_cost": 1456.01,
+        "total_project_cost": 1762.0149999999999,
+        "total_margin": 599.69,
+        "total_vat": 162.43,
+        "final_project_cost": 2524.14,
+        "country": "france",
+        "budget_level": 1,
+        "location": "Lyon, Auvergne-Rhône-Alpes, France",
+        "project_scope": "medium",
+        "tasks_count": 3,
+        "total_objectives": 5
+      }
+    },
+    {
+      "test_name": "test_2_dual_bathrooms",
+      "transcript": "We have two bathrooms we want to renovate. First is the master bath — around 6m². We'd like to install a freestanding tub, redo the tiling completely, and upgrade the lighting. The second is a smaller ensuite — just 2.5m². We need to replace the shower, update the vanity, and fix some minor water damage on the ceiling. We'd like both to have a cohesive look. Budget is flexible, depending on design. We're based in Toulouse.",
+      "status": "SUCCESS",
+      "timestamp": "2025-07-13T19:42:34.975850",
+      "result_file": "tests/test_results\\test_2_dual_bathrooms_result.json",
+      "output_file": "tests/test_results\\test_2_dual_bathrooms_output.txt",
+      "summary": {
+        "total_materials_cost": 2964,
+        "total_labor_cost": 2835.84,
+        "total_project_cost": 5799.84,
+        "total_margin": 2178.14,
+        "total_vat": 446.6,
+        "final_project_cost": 8424.58,
+        "country": "france",
+        "budget_level": 3,
+        "location": "Toulouse, Occitanie, France",
+        "project_scope": "medium",
+        "tasks_count": 2,
+        "total_objectives": 6
+      }
+    },
+    {
+      "test_name": "test_3_new_bathroom",
+      "transcript": "We're building an extension and want to add a new bathroom, roughly 5m². It'll need full plumbing installation, tiling, a shower enclosure, wall-hung toilet, and floating vanity. We haven't picked out materials yet, so would love recommendations. Our main concern is staying within a mid-range budget. Located in Nice.",
+      "status": "SUCCESS",
+      "timestamp": "2025-07-13T19:42:57.626078",
+      "result_file": "tests/test_results\\test_3_new_bathroom_result.json",
+      "output_file": "tests/test_results\\test_3_new_bathroom_output.txt",
+      "summary": {
+        "total_materials_cost": 2535,
+        "total_labor_cost": 6331.2,
+        "total_project_cost": 8866.2,
+        "total_margin": 3552.91,
+        "total_vat": 1773.24,
+        "final_project_cost": 14192.35,
+        "country": "france",
+        "budget_level": 2,
+        "location": "Nice, France",
+        "project_scope": "medium",
+        "tasks_count": 1,
+        "total_objectives": 5
+      }
+    }
+  ]
+}

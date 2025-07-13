@@ -1,0 +1,1290 @@
+{
+  "ceramic_tiles": {
+    "material_name": "ceramic_tiles",
+    "price": 25,
+    "quantity": 1,
+    "unit": "m²",
+    "description": "Standard ceramic floor tiles for bathroom flooring"
+  },
+  "wall_paint": {
+    "material_name": "wall_paint",
+    "price": 35,
+    "quantity": 2,
+    "unit": "L",
+    "description": "Water-resistant paint suitable for bathroom walls"
+  },
+  "toilet": {
+    "material_name": "toilet",
+    "price": 150,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Standard toilet bowl with cistern"
+  },
+  "vanity": {
+    "material_name": "vanity",
+    "price": 200,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Bathroom vanity unit with sink"
+  },
+  "shower_plumbing": {
+    "material_name": "shower_plumbing",
+    "price": 120,
+    "quantity": 1,
+    "unit": "set",
+    "description": "Complete shower plumbing kit with faucet and fixtures"
+  },
+  "tile_adhesive": {
+    "material_name": "tile_adhesive",
+    "price": 15,
+    "quantity": 20,
+    "unit": "kg",
+    "description": "Professional tile adhesive for ceramic tiles"
+  },
+  "tile_grout": {
+    "material_name": "tile_grout",
+    "price": 12,
+    "quantity": 5,
+    "unit": "kg",
+    "description": "Waterproof grout for tile joints"
+  },
+  "primer": {
+    "material_name": "primer",
+    "price": 28,
+    "quantity": 2,
+    "unit": "L",
+    "description": "Wall primer for bathroom surfaces"
+  },
+  "plumbing_pipes": {
+    "material_name": "plumbing_pipes",
+    "price": 8,
+    "quantity": 1,
+    "unit": "m",
+    "description": "PVC plumbing pipes for water supply"
+  },
+  "bathroom_faucet": {
+    "material_name": "bathroom_faucet",
+    "price": 75,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Standard bathroom faucet with mixer"
+  },
+  "shower_head": {
+    "material_name": "shower_head",
+    "price": 45,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Standard shower head with adjustable spray"
+  },
+  "waterproofing_membrane": {
+    "material_name": "waterproofing_membrane",
+    "price": 18,
+    "quantity": 1,
+    "unit": "m²",
+    "description": "Waterproof membrane for bathroom floor and walls"
+  },
+  "cement_mortar": {
+    "material_name": "cement_mortar",
+    "price": 8,
+    "quantity": 25,
+    "unit": "kg",
+    "description": "Pre-mixed cement mortar for construction"
+  },
+  "silicone_sealant": {
+    "material_name": "silicone_sealant",
+    "price": 6,
+    "quantity": 1,
+    "unit": "tube",
+    "description": "Waterproof silicone sealant for joints"
+  },
+  "bathroom_mirror": {
+    "material_name": "bathroom_mirror",
+    "price": 35,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Standard bathroom mirror with mounting hardware"
+  },
+  "tile_removal_tools": {
+    "material_name": "tile_removal_tools",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Tile removal tools (fallback data)"
+  },
+  "protective_gear": {
+    "material_name": "protective_gear",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Protective gear (fallback data)"
+  },
+  "copper_piping": {
+    "material_name": "copper_piping",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Copper piping (fallback data)"
+  },
+  "shower_valve": {
+    "material_name": "shower_valve",
+    "price": 120,
+    "quantity": 1,
+    "unit": "set",
+    "description": "Estimated pricing for Shower valve (fallback data)"
+  },
+  "wrench_set": {
+    "material_name": "wrench_set",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Wrench set (fallback data)"
+  },
+  "new_toilet": {
+    "material_name": "new_toilet",
+    "price": 150,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for New toilet (fallback data)"
+  },
+  "wax_ring": {
+    "material_name": "wax_ring",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Wax ring (fallback data)"
+  },
+  "drill": {
+    "material_name": "drill",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Drill (fallback data)"
+  },
+  "vanity_unit": {
+    "material_name": "vanity_unit",
+    "price": 200,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Vanity unit (fallback data)"
+  },
+  "sink": {
+    "material_name": "sink",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Sink (fallback data)"
+  },
+  "pipe_wrench": {
+    "material_name": "pipe_wrench",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Pipe wrench (fallback data)"
+  },
+  "interior_paint": {
+    "material_name": "interior_paint",
+    "price": 40,
+    "quantity": 2,
+    "unit": "L",
+    "description": "Estimated pricing for Interior paint (fallback data)"
+  },
+  "paint_roller": {
+    "material_name": "paint_roller",
+    "price": 40,
+    "quantity": 2,
+    "unit": "L",
+    "description": "Estimated pricing for Paint roller (fallback data)"
+  },
+  "drop_cloths": {
+    "material_name": "drop_cloths",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Drop cloths (fallback data)"
+  },
+  "thinset_mortar": {
+    "material_name": "thinset_mortar",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Thinset mortar (fallback data)"
+  },
+  "tile_cutter": {
+    "material_name": "tile_cutter",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Tile cutter (fallback data)"
+  },
+  "trowel_set": {
+    "material_name": "trowel_set",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Trowel set (fallback data)"
+  },
+  "scrape": {
+    "material_name": "scrape",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Scrape (fallback data)"
+  },
+  "pvc_pipes": {
+    "material_name": "pvc_pipes",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for PVC pipes (fallback data)"
+  },
+  "pipe_cutters": {
+    "material_name": "pipe_cutters",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Pipe cutters (fallback data)"
+  },
+  "mounting_brackets": {
+    "material_name": "mounting_brackets",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Mounting brackets (fallback data)"
+  },
+  "paint": {
+    "material_name": "paint",
+    "price": 40,
+    "quantity": 2,
+    "unit": "L",
+    "description": "Estimated pricing for Paint (fallback data)"
+  },
+  "paint_brushes": {
+    "material_name": "paint_brushes",
+    "price": 40,
+    "quantity": 2,
+    "unit": "L",
+    "description": "Estimated pricing for Paint brushes (fallback data)"
+  },
+  "grout": {
+    "material_name": "grout",
+    "price": 12,
+    "quantity": 5,
+    "unit": "kg",
+    "description": "Estimated pricing for Grout (fallback data)"
+  },
+  "troweler": {
+    "material_name": "troweler",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Troweler (fallback data)"
+  },
+  "tile_spacers": {
+    "material_name": "tile_spacers",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Tile Spacers (fallback data)"
+  },
+  "tiles": {
+    "material_name": "tiles",
+    "price": 30,
+    "quantity": 1,
+    "unit": "m²",
+    "description": "Estimated pricing for Tiles (fallback data)"
+  },
+  "sledgehammer": {
+    "material_name": "sledgehammer",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Sledgehammer (fallback data)"
+  },
+  "shower_plumbing_parts": {
+    "material_name": "shower_plumbing_parts",
+    "price": 100,
+    "quantity": 1,
+    "unit": "set",
+    "description": "Estimated pricing for Shower plumbing parts (fallback data)"
+  },
+  "gaskets": {
+    "material_name": "gaskets",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Gaskets (fallback data)"
+  },
+  "screws": {
+    "material_name": "screws",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Screws (fallback data)"
+  },
+  "paintbrushes": {
+    "material_name": "paintbrushes",
+    "price": 40,
+    "quantity": 2,
+    "unit": "L",
+    "description": "Estimated pricing for Paintbrushes (fallback data)"
+  },
+  "ceramic_floor_tiles": {
+    "material_name": "ceramic_floor_tiles",
+    "price": 30,
+    "quantity": 1,
+    "unit": "m²",
+    "description": "Estimated pricing for Ceramic floor tiles (fallback data)"
+  },
+  "grouting_tools": {
+    "material_name": "grouting_tools",
+    "price": 12,
+    "quantity": 5,
+    "unit": "kg",
+    "description": "Estimated pricing for Grouting tools (fallback data)"
+  },
+  "old_tile_removal_tools": {
+    "material_name": "old_tile_removal_tools",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Old tile removal tools (fallback data)"
+  },
+  "safety_gear": {
+    "material_name": "safety_gear",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Safety gear (fallback data)"
+  },
+  "plumber's_tools": {
+    "material_name": "plumber's_tools",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Plumber's tools (fallback data)"
+  },
+  "mounting_hardware": {
+    "material_name": "mounting_hardware",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Mounting hardware (fallback data)"
+  },
+  "brushes": {
+    "material_name": "brushes",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Brushes (fallback data)"
+  },
+  "tiling_adhesive": {
+    "material_name": "tiling_adhesive",
+    "price": 15,
+    "quantity": 20,
+    "unit": "kg",
+    "description": "Estimated pricing for Tiling adhesive (fallback data)"
+  },
+  "tiling_adhesive_remover": {
+    "material_name": "tiling_adhesive_remover",
+    "price": 15,
+    "quantity": 20,
+    "unit": "kg",
+    "description": "Estimated pricing for Tiling adhesive remover (fallback data)"
+  },
+  "floor_scraper": {
+    "material_name": "floor_scraper",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Floor scraper (fallback data)"
+  },
+  "safety_goggles": {
+    "material_name": "safety_goggles",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Safety goggles (fallback data)"
+  },
+  "plumbing_fittings": {
+    "material_name": "plumbing_fittings",
+    "price": 100,
+    "quantity": 1,
+    "unit": "set",
+    "description": "Estimated pricing for Plumbing fittings (fallback data)"
+  },
+  "teflon_tape": {
+    "material_name": "teflon_tape",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Teflon tape (fallback data)"
+  },
+  "new_toilet_installation_kit": {
+    "material_name": "new_toilet_installation_kit",
+    "price": 150,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for New toilet installation kit (fallback data)"
+  },
+  "adjustable_wrench": {
+    "material_name": "adjustable_wrench",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Adjustable wrench (fallback data)"
+  },
+  "pre_fabricated_vanity": {
+    "material_name": "pre_fabricated_vanity",
+    "price": 200,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Pre-fabricated vanity (fallback data)"
+  },
+  "wall_anchors": {
+    "material_name": "wall_anchors",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Wall anchors (fallback data)"
+  },
+  "silicone_caulk": {
+    "material_name": "silicone_caulk",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Silicone caulk (fallback data)"
+  },
+  "interior_latex_paint": {
+    "material_name": "interior_latex_paint",
+    "price": 40,
+    "quantity": 2,
+    "unit": "L",
+    "description": "Estimated pricing for Interior latex paint (fallback data)"
+  },
+  "paint_rollers": {
+    "material_name": "paint_rollers",
+    "price": 40,
+    "quantity": 2,
+    "unit": "L",
+    "description": "Estimated pricing for Paint rollers (fallback data)"
+  },
+  "notched_trowel": {
+    "material_name": "notched_trowel",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Notched trowel (fallback data)"
+  },
+  "dust_masks": {
+    "material_name": "dust_masks",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Dust masks (fallback data)"
+  },
+  "pvc_piping": {
+    "material_name": "pvc_piping",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for PVC piping (fallback data)"
+  },
+  "sealant": {
+    "material_name": "sealant",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Sealant (fallback data)"
+  },
+  "pipe_cutter": {
+    "material_name": "pipe_cutter",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Pipe cutter (fallback data)"
+  },
+  "toilet_unit": {
+    "material_name": "toilet_unit",
+    "price": 150,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Toilet unit (fallback data)"
+  },
+  "gasket": {
+    "material_name": "gasket",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Gasket (fallback data)"
+  },
+  "toilet_bolts": {
+    "material_name": "toilet_bolts",
+    "price": 150,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Toilet bolts (fallback data)"
+  },
+  "level": {
+    "material_name": "level",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Level (fallback data)"
+  },
+  "bathroom_vanity": {
+    "material_name": "bathroom_vanity",
+    "price": 200,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Bathroom vanity (fallback data)"
+  },
+  "screwdriver": {
+    "material_name": "screwdriver",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Screwdriver (fallback data)"
+  },
+  "painter's_tape": {
+    "material_name": "painter's_tape",
+    "price": 40,
+    "quantity": 2,
+    "unit": "L",
+    "description": "Estimated pricing for Painter's tape (fallback data)"
+  },
+  "adhesive": {
+    "material_name": "adhesive",
+    "price": 15,
+    "quantity": 20,
+    "unit": "kg",
+    "description": "Estimated pricing for Adhesive (fallback data)"
+  },
+  "spacers": {
+    "material_name": "spacers",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Spacers (fallback data)"
+  },
+  "notching_trowel": {
+    "material_name": "notching_trowel",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Notching trowel (fallback data)"
+  },
+  "walk_in_shower_tray": {
+    "material_name": "walk_in_shower_tray",
+    "price": 120,
+    "quantity": 1,
+    "unit": "set",
+    "description": "Estimated pricing for Walk-in shower tray (fallback data)"
+  },
+  "shower_screen": {
+    "material_name": "shower_screen",
+    "price": 120,
+    "quantity": 1,
+    "unit": "set",
+    "description": "Estimated pricing for Shower screen (fallback data)"
+  },
+  "demolition_hammer": {
+    "material_name": "demolition_hammer",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Demolition hammer (fallback data)"
+  },
+  "modern_vessel_sink": {
+    "material_name": "modern_vessel_sink",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Modern vessel sink (fallback data)"
+  },
+  "mirror_cabinet": {
+    "material_name": "mirror_cabinet",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Mirror cabinet (fallback data)"
+  },
+  "replacement_faucet": {
+    "material_name": "replacement_faucet",
+    "price": 8,
+    "quantity": 25,
+    "unit": "kg",
+    "description": "Estimated pricing for Replacement faucet (fallback data)"
+  },
+  "bathroom_design_software": {
+    "material_name": "bathroom_design_software",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Bathroom design software (fallback data)"
+  },
+  "bathtub_removal_tools": {
+    "material_name": "bathtub_removal_tools",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Bathtub removal tools (fallback data)"
+  },
+  "demolition_tools": {
+    "material_name": "demolition_tools",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Demolition tools (fallback data)"
+  },
+  "shower_tray": {
+    "material_name": "shower_tray",
+    "price": 120,
+    "quantity": 1,
+    "unit": "set",
+    "description": "Estimated pricing for Shower tray (fallback data)"
+  },
+  "waterproof_tiles": {
+    "material_name": "waterproof_tiles",
+    "price": 30,
+    "quantity": 1,
+    "unit": "m²",
+    "description": "Estimated pricing for Waterproof tiles (fallback data)"
+  },
+  "tiling_tools": {
+    "material_name": "tiling_tools",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Tiling tools (fallback data)"
+  },
+  "led_mirror_cabinet": {
+    "material_name": "led_mirror_cabinet",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for LED mirror cabinet (fallback data)"
+  },
+  "shower_installation_kit": {
+    "material_name": "shower_installation_kit",
+    "price": 120,
+    "quantity": 1,
+    "unit": "set",
+    "description": "Estimated pricing for Shower installation kit (fallback data)"
+  },
+  "new_sink": {
+    "material_name": "new_sink",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for New sink (fallback data)"
+  },
+  "new_mirror_cabinet": {
+    "material_name": "new_mirror_cabinet",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for New mirror cabinet (fallback data)"
+  },
+  "plumbing_tools": {
+    "material_name": "plumbing_tools",
+    "price": 100,
+    "quantity": 1,
+    "unit": "set",
+    "description": "Estimated pricing for Plumbing tools (fallback data)"
+  },
+  "freestanding_bathtub": {
+    "material_name": "freestanding_bathtub",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Freestanding bathtub (fallback data)"
+  },
+  "plumber's_putty": {
+    "material_name": "plumber's_putty",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Plumber's putty (fallback data)"
+  },
+  "wall_&_floor_tiles": {
+    "material_name": "wall_&_floor_tiles",
+    "price": 30,
+    "quantity": 1,
+    "unit": "m²",
+    "description": "Estimated pricing for Wall & floor tiles (fallback data)"
+  },
+  "new_lighting_fixtures": {
+    "material_name": "new_lighting_fixtures",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for New lighting fixtures (fallback data)"
+  },
+  "safety_glasses": {
+    "material_name": "safety_glasses",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Safety glasses (fallback data)"
+  },
+  "electrical_wire": {
+    "material_name": "electrical_wire",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Electrical wire (fallback data)"
+  },
+  "new_shower_unit": {
+    "material_name": "new_shower_unit",
+    "price": 120,
+    "quantity": 1,
+    "unit": "set",
+    "description": "Estimated pricing for New shower unit (fallback data)"
+  },
+  "shower_screen_seals": {
+    "material_name": "shower_screen_seals",
+    "price": 120,
+    "quantity": 1,
+    "unit": "set",
+    "description": "Estimated pricing for Shower screen seals (fallback data)"
+  },
+  "new_vanity_unit": {
+    "material_name": "new_vanity_unit",
+    "price": 200,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for New vanity unit (fallback data)"
+  },
+  "faucet_set": {
+    "material_name": "faucet_set",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Faucet set (fallback data)"
+  },
+  "drywall_patch": {
+    "material_name": "drywall_patch",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Drywall patch (fallback data)"
+  },
+  "spackling_compound": {
+    "material_name": "spackling_compound",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Spackling compound (fallback data)"
+  },
+  "sander": {
+    "material_name": "sander",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Sander (fallback data)"
+  },
+  "copper_pipes": {
+    "material_name": "copper_pipes",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Copper pipes (fallback data)"
+  },
+  "p_traps": {
+    "material_name": "p_traps",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for P-traps (fallback data)"
+  },
+  "tee_fittings": {
+    "material_name": "tee_fittings",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Tee fittings (fallback data)"
+  },
+  "soldering_kit": {
+    "material_name": "soldering_kit",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Soldering kit (fallback data)"
+  },
+  "porcelain_tiles": {
+    "material_name": "porcelain_tiles",
+    "price": 30,
+    "quantity": 1,
+    "unit": "m²",
+    "description": "Estimated pricing for Porcelain tiles (fallback data)"
+  },
+  "grout_float": {
+    "material_name": "grout_float",
+    "price": 12,
+    "quantity": 5,
+    "unit": "kg",
+    "description": "Estimated pricing for Grout float (fallback data)"
+  },
+  "shower_door_hinges": {
+    "material_name": "shower_door_hinges",
+    "price": 120,
+    "quantity": 1,
+    "unit": "set",
+    "description": "Estimated pricing for Shower door hinges (fallback data)"
+  },
+  "spirit_level": {
+    "material_name": "spirit_level",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Spirit level (fallback data)"
+  },
+  "wall_mounted_toilet": {
+    "material_name": "wall_mounted_toilet",
+    "price": 150,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Wall-mounted toilet (fallback data)"
+  },
+  "toilet_frame_kit": {
+    "material_name": "toilet_frame_kit",
+    "price": 150,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Toilet frame kit (fallback data)"
+  },
+  "wax_seal": {
+    "material_name": "wax_seal",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Wax seal (fallback data)"
+  },
+  "vanity_top": {
+    "material_name": "vanity_top",
+    "price": 200,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Vanity top (fallback data)"
+  },
+  "vanity_brackets": {
+    "material_name": "vanity_brackets",
+    "price": 200,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Vanity brackets (fallback data)"
+  },
+  "sink_installation_kit": {
+    "material_name": "sink_installation_kit",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Sink installation kit (fallback data)"
+  },
+  "demolition_debris_bags": {
+    "material_name": "demolition_debris_bags",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Demolition debris bags (fallback data)"
+  },
+  "protective_goggles": {
+    "material_name": "protective_goggles",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Protective goggles (fallback data)"
+  },
+  "shower_pan": {
+    "material_name": "shower_pan",
+    "price": 120,
+    "quantity": 1,
+    "unit": "set",
+    "description": "Estimated pricing for Shower pan (fallback data)"
+  },
+  "waterproof_tileboard": {
+    "material_name": "waterproof_tileboard",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Waterproof tileboard (fallback data)"
+  },
+  "caulk_gun": {
+    "material_name": "caulk_gun",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Caulk gun (fallback data)"
+  },
+  "grout_bag": {
+    "material_name": "grout_bag",
+    "price": 12,
+    "quantity": 5,
+    "unit": "kg",
+    "description": "Estimated pricing for Grout bag (fallback data)"
+  },
+  "freestanding_tub": {
+    "material_name": "freestanding_tub",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Freestanding tub (fallback data)"
+  },
+  "plumber's_tape": {
+    "material_name": "plumber's_tape",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Plumber's tape (fallback data)"
+  },
+  "drain_kit": {
+    "material_name": "drain_kit",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Drain kit (fallback data)"
+  },
+  "wall_tiles": {
+    "material_name": "wall_tiles",
+    "price": 30,
+    "quantity": 1,
+    "unit": "m²",
+    "description": "Estimated pricing for Wall tiles (fallback data)"
+  },
+  "floor_tiles": {
+    "material_name": "floor_tiles",
+    "price": 30,
+    "quantity": 1,
+    "unit": "m²",
+    "description": "Estimated pricing for Floor tiles (fallback data)"
+  },
+  "tiling_kit": {
+    "material_name": "tiling_kit",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Tiling kit (fallback data)"
+  },
+  "grouting_float": {
+    "material_name": "grouting_float",
+    "price": 12,
+    "quantity": 5,
+    "unit": "kg",
+    "description": "Estimated pricing for Grouting float (fallback data)"
+  },
+  "new_fixtures": {
+    "material_name": "new_fixtures",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for New fixtures (fallback data)"
+  },
+  "lighting_kit": {
+    "material_name": "lighting_kit",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Lighting kit (fallback data)"
+  },
+  "wire_connectors": {
+    "material_name": "wire_connectors",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Wire connectors (fallback data)"
+  },
+  "ladder": {
+    "material_name": "ladder",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Ladder (fallback data)"
+  },
+  "voltage_tester": {
+    "material_name": "voltage_tester",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Voltage tester (fallback data)"
+  },
+  "wire_stripper": {
+    "material_name": "wire_stripper",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Wire stripper (fallback data)"
+  },
+  "new_shower": {
+    "material_name": "new_shower",
+    "price": 120,
+    "quantity": 1,
+    "unit": "set",
+    "description": "Estimated pricing for New shower (fallback data)"
+  },
+  "showerhead": {
+    "material_name": "showerhead",
+    "price": 120,
+    "quantity": 1,
+    "unit": "set",
+    "description": "Estimated pricing for Showerhead (fallback data)"
+  },
+  "waterproof_grout": {
+    "material_name": "waterproof_grout",
+    "price": 12,
+    "quantity": 5,
+    "unit": "kg",
+    "description": "Estimated pricing for Waterproof grout (fallback data)"
+  },
+  "caulking_gun": {
+    "material_name": "caulking_gun",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Caulking gun (fallback data)"
+  },
+  "new_vanity": {
+    "material_name": "new_vanity",
+    "price": 200,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for New vanity (fallback data)"
+  },
+  "sink_set": {
+    "material_name": "sink_set",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Sink set (fallback data)"
+  },
+  "faucet_kit": {
+    "material_name": "faucet_kit",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Faucet kit (fallback data)"
+  },
+  "patching_compound": {
+    "material_name": "patching_compound",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Patching compound (fallback data)"
+  },
+  "molding": {
+    "material_name": "molding",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Molding (fallback data)"
+  },
+  "ceiling_tiles": {
+    "material_name": "ceiling_tiles",
+    "price": 30,
+    "quantity": 1,
+    "unit": "m²",
+    "description": "Estimated pricing for Ceiling tiles (fallback data)"
+  },
+  "waterproofing_tape": {
+    "material_name": "waterproofing_tape",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Waterproofing tape (fallback data)"
+  },
+  "spackling_knife": {
+    "material_name": "spackling_knife",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Spackling knife (fallback data)"
+  },
+  "sandpaper": {
+    "material_name": "sandpaper",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Sandpaper (fallback data)"
+  },
+  "copper_tubing": {
+    "material_name": "copper_tubing",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Copper tubing (fallback data)"
+  },
+  "pipe_wrench_set": {
+    "material_name": "pipe_wrench_set",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Pipe wrench set (fallback data)"
+  },
+  "grout_sealant": {
+    "material_name": "grout_sealant",
+    "price": 12,
+    "quantity": 5,
+    "unit": "kg",
+    "description": "Estimated pricing for Grout sealant (fallback data)"
+  },
+  "frameless_glass_enclosure": {
+    "material_name": "frameless_glass_enclosure",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Frameless glass enclosure (fallback data)"
+  },
+  "silicone_gun": {
+    "material_name": "silicone_gun",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Silicone gun (fallback data)"
+  },
+  "wall_mounted_toilet_kit": {
+    "material_name": "wall_mounted_toilet_kit",
+    "price": 150,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Wall-mounted toilet kit (fallback data)"
+  },
+  "floating_vanity_unit": {
+    "material_name": "floating_vanity_unit",
+    "price": 200,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Floating vanity unit (fallback data)"
+  },
+  "sink_basin": {
+    "material_name": "sink_basin",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Sink basin (fallback data)"
+  },
+  "water_seals": {
+    "material_name": "water_seals",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Water seals (fallback data)"
+  },
+  "shower_base": {
+    "material_name": "shower_base",
+    "price": 120,
+    "quantity": 1,
+    "unit": "set",
+    "description": "Estimated pricing for Shower base (fallback data)"
+  },
+  "plumber's_wrench": {
+    "material_name": "plumber's_wrench",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Plumber's wrench (fallback data)"
+  },
+  "basin_wrench": {
+    "material_name": "basin_wrench",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Basin wrench (fallback data)"
+  },
+  "fixture_catalog": {
+    "material_name": "fixture_catalog",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Fixture catalog (fallback data)"
+  },
+  "bathtub_plumbing_kit": {
+    "material_name": "bathtub_plumbing_kit",
+    "price": 100,
+    "quantity": 1,
+    "unit": "set",
+    "description": "Estimated pricing for Bathtub plumbing kit (fallback data)"
+  },
+  "bathroom_tiles": {
+    "material_name": "bathroom_tiles",
+    "price": 30,
+    "quantity": 1,
+    "unit": "m²",
+    "description": "Estimated pricing for Bathroom tiles (fallback data)"
+  },
+  "trowel": {
+    "material_name": "trowel",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Trowel (fallback data)"
+  },
+  "led_bathroom_fixtures": {
+    "material_name": "led_bathroom_fixtures",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for LED bathroom fixtures (fallback data)"
+  },
+  "screwdriver_set": {
+    "material_name": "screwdriver_set",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Screwdriver set (fallback data)"
+  },
+  "water_resistant_sealant": {
+    "material_name": "water_resistant_sealant",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Water resistant sealant (fallback data)"
+  },
+  "masking_tape": {
+    "material_name": "masking_tape",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Masking tape (fallback data)"
+  },
+  "dwv_piping": {
+    "material_name": "dwv_piping",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for DWV piping (fallback data)"
+  },
+  "plumber's_wrench_set": {
+    "material_name": "plumber's_wrench_set",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Plumber's wrench set (fallback data)"
+  },
+  "pipe_seals": {
+    "material_name": "pipe_seals",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Pipe seals (fallback data)"
+  },
+  "glass_panels": {
+    "material_name": "glass_panels",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Glass panels (fallback data)"
+  },
+  "hidden_installation_kit": {
+    "material_name": "hidden_installation_kit",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Hidden installation kit (fallback data)"
+  },
+  "pipe_fittings": {
+    "material_name": "pipe_fittings",
+    "price": 50,
+    "quantity": 1,
+    "unit": "pcs",
+    "description": "Estimated pricing for Pipe fittings (fallback data)"
+  }
+}

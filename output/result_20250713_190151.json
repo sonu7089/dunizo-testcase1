@@ -1,0 +1,584 @@
+{
+  "tasks": [
+    {
+      "task_id": "task_1",
+      "task_name": "Upgrade guest bathroom",
+      "objectives": [
+        {
+          "objective_id": "obj_1",
+          "description": "Remove existing bathtub",
+          "labor_difficulty": 3,
+          "materials_required": [
+            {
+              "material": "Demolition debris bags",
+              "quantity": 5,
+              "unit": "bag",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 250,
+              "description": "Estimated pricing for Demolition debris bags (fallback data)",
+              "included_in_pricing": true
+            }
+          ],
+          "miscellaneous_materials": [
+            {
+              "material": "Sledgehammer",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Sledgehammer (fallback data)",
+              "included_in_pricing": false
+            },
+            {
+              "material": "Protective goggles",
+              "quantity": 1,
+              "unit": "pair",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Protective goggles (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 8,
+          "confidence_score": 0.95,
+          "cost_breakdown": {
+            "materials_cost": 250,
+            "miscellaneous_cost": 100,
+            "total_materials_cost": 250,
+            "misc_cost_excluded": true,
+            "labor_cost": 464.59999999999997,
+            "total_cost": 714.5999999999999
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 3,
+            "difficulty_description": "Hard tasks - complex installations and specialized work",
+            "estimated_hours": 8,
+            "base_hourly_rate": 50.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 50.0,
+            "regional_multiplier": 1.15,
+            "regional_hourly_rate": 57.5,
+            "confidence_adjustment": 1.01,
+            "final_hourly_rate": 58.07,
+            "total_labor_cost": 464.6
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_1",
+            "description": "Remove existing bathtub",
+            "materials_cost": 250,
+            "labor_cost": 464.59999999999997,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 13.75,
+            "labor_vat_amount": 46.46,
+            "total_vat_amount": 60.21,
+            "total_with_vat": 774.81,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Demolition debris bags",
+                "cost": 250,
+                "vat_rate": 0.055,
+                "vat_amount": 13.75,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.144,
+            "margin_amount": 102.9
+          },
+          "pricing_breakdown": {
+            "subtotal": 714.6,
+            "margin": 102.9,
+            "subtotal_with_margin": 817.5,
+            "vat_amount": 60.21,
+            "final_price": 877.71
+          }
+        },
+        {
+          "objective_id": "obj_2",
+          "description": "Install walk-in shower",
+          "labor_difficulty": 3,
+          "materials_required": [
+            {
+              "material": "Shower pan",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 120,
+              "unit_quantity": 1,
+              "price_unit": "set",
+              "total_cost": 120,
+              "description": "Estimated pricing for Shower pan (fallback data)",
+              "included_in_pricing": true
+            },
+            {
+              "material": "Waterproof tileboard",
+              "quantity": 10,
+              "unit": "m²",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 500,
+              "description": "Estimated pricing for Waterproof tileboard (fallback data)",
+              "included_in_pricing": true
+            },
+            {
+              "material": "Shower head",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 45,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 45,
+              "description": "Standard shower head with adjustable spray",
+              "included_in_pricing": true
+            }
+          ],
+          "miscellaneous_materials": [
+            {
+              "material": "Caulk gun",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Caulk gun (fallback data)",
+              "included_in_pricing": false
+            },
+            {
+              "material": "Grout bag",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 12,
+              "unit_quantity": 5,
+              "price_unit": "kg",
+              "total_cost": 12,
+              "description": "Estimated pricing for Grout bag (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 24,
+          "confidence_score": 0.9,
+          "cost_breakdown": {
+            "materials_cost": 665,
+            "miscellaneous_cost": 62,
+            "total_materials_cost": 665,
+            "misc_cost_excluded": true,
+            "labor_cost": 1407.6,
+            "total_cost": 2072.6
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 3,
+            "difficulty_description": "Hard tasks - complex installations and specialized work",
+            "estimated_hours": 24,
+            "base_hourly_rate": 50.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 50.0,
+            "regional_multiplier": 1.15,
+            "regional_hourly_rate": 57.5,
+            "confidence_adjustment": 1.02,
+            "final_hourly_rate": 58.65,
+            "total_labor_cost": 1407.6
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_2",
+            "description": "Install walk-in shower",
+            "materials_cost": 665,
+            "labor_cost": 1407.6,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 36.575,
+            "labor_vat_amount": 140.76,
+            "total_vat_amount": 177.33499999999998,
+            "total_with_vat": 2249.9349999999995,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Shower pan",
+                "cost": 120,
+                "vat_rate": 0.055,
+                "vat_amount": 6.6,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Waterproof tileboard",
+                "cost": 500,
+                "vat_rate": 0.055,
+                "vat_amount": 27.5,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Shower head",
+                "cost": 45,
+                "vat_rate": 0.055,
+                "vat_amount": 2.475,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.144,
+            "margin_amount": 298.45
+          },
+          "pricing_breakdown": {
+            "subtotal": 2072.6,
+            "margin": 298.45,
+            "subtotal_with_margin": 2371.05,
+            "vat_amount": 177.33,
+            "final_price": 2548.39
+          }
+        },
+        {
+          "objective_id": "obj_3",
+          "description": "Replace sink and mirror cabinet",
+          "labor_difficulty": 2,
+          "materials_required": [
+            {
+              "material": "Vanity unit",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 200,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 200,
+              "description": "Estimated pricing for Vanity unit (fallback data)",
+              "included_in_pricing": true
+            },
+            {
+              "material": "Mirror cabinet",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Mirror cabinet (fallback data)",
+              "included_in_pricing": true
+            }
+          ],
+          "miscellaneous_materials": [
+            {
+              "material": "Plumber's putty",
+              "quantity": 1,
+              "unit": "tube",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Plumber's putty (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 8,
+          "confidence_score": 0.85,
+          "cost_breakdown": {
+            "materials_cost": 250,
+            "miscellaneous_cost": 50,
+            "total_materials_cost": 250,
+            "misc_cost_excluded": true,
+            "labor_cost": 331.66,
+            "total_cost": 581.6600000000001
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 2,
+            "difficulty_description": "Medium tasks - installations and standard repairs",
+            "estimated_hours": 8,
+            "base_hourly_rate": 35.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 35.0,
+            "regional_multiplier": 1.15,
+            "regional_hourly_rate": 40.25,
+            "confidence_adjustment": 1.03,
+            "final_hourly_rate": 41.46,
+            "total_labor_cost": 331.66
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_3",
+            "description": "Replace sink and mirror cabinet",
+            "materials_cost": 250,
+            "labor_cost": 331.66,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 13.75,
+            "labor_vat_amount": 33.166000000000004,
+            "total_vat_amount": 46.916000000000004,
+            "total_with_vat": 628.5760000000001,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Vanity unit",
+                "cost": 200,
+                "vat_rate": 0.055,
+                "vat_amount": 11.0,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Mirror cabinet",
+                "cost": 50,
+                "vat_rate": 0.055,
+                "vat_amount": 2.75,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.144,
+            "margin_amount": 83.76
+          },
+          "pricing_breakdown": {
+            "subtotal": 581.66,
+            "margin": 83.76,
+            "subtotal_with_margin": 665.42,
+            "vat_amount": 46.92,
+            "final_price": 712.34
+          }
+        }
+      ],
+      "estimated_complexity": "medium",
+      "timeline_mentions": "not specified",
+      "total_materials_cost": 1165,
+      "total_labor_cost": 2203.86,
+      "total_cost": 3368.8599999999997,
+      "vat_breakdown": {
+        "work_type": "renovation",
+        "country": "france",
+        "objectives": [
+          {
+            "objective_id": "obj_1",
+            "description": "Remove existing bathtub",
+            "materials_cost": 250,
+            "labor_cost": 464.59999999999997,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 13.75,
+            "labor_vat_amount": 46.46,
+            "total_vat_amount": 60.21,
+            "total_with_vat": 774.81,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Demolition debris bags",
+                "cost": 250,
+                "vat_rate": 0.055,
+                "vat_amount": 13.75,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          {
+            "objective_id": "obj_2",
+            "description": "Install walk-in shower",
+            "materials_cost": 665,
+            "labor_cost": 1407.6,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 36.575,
+            "labor_vat_amount": 140.76,
+            "total_vat_amount": 177.33499999999998,
+            "total_with_vat": 2249.9349999999995,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Shower pan",
+                "cost": 120,
+                "vat_rate": 0.055,
+                "vat_amount": 6.6,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Waterproof tileboard",
+                "cost": 500,
+                "vat_rate": 0.055,
+                "vat_amount": 27.5,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Shower head",
+                "cost": 45,
+                "vat_rate": 0.055,
+                "vat_amount": 2.475,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          {
+            "objective_id": "obj_3",
+            "description": "Replace sink and mirror cabinet",
+            "materials_cost": 250,
+            "labor_cost": 331.66,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 13.75,
+            "labor_vat_amount": 33.166000000000004,
+            "total_vat_amount": 46.916000000000004,
+            "total_with_vat": 628.5760000000001,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Vanity unit",
+                "cost": 200,
+                "vat_rate": 0.055,
+                "vat_amount": 11.0,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Mirror cabinet",
+                "cost": 50,
+                "vat_rate": 0.055,
+                "vat_amount": 2.75,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          }
+        ],
+        "materials_vat_total": 64.075,
+        "labor_vat_total": 220.386,
+        "total_vat": 284.461,
+        "effective_vat_rate": 0.08443835600173354
+      },
+      "margin_breakdown": {
+        "materials_margin_rate": 0.173,
+        "labor_margin_rate": 0.115,
+        "materials_margin": 200.96,
+        "labor_margin": 253.44,
+        "additional_margin": 581.13,
+        "total_margin": 1035.53,
+        "budget_adjustment": 0.0,
+        "complexity_adjustment": 0.05,
+        "location_multiplier": 1.15
+      },
+      "pricing_breakdown": {
+        "subtotal": 3368.86,
+        "margin": 1035.53,
+        "subtotal_with_margin": 4404.39,
+        "vat_amount": 284.46,
+        "final_price": 4688.85
+      }
+    }
+  ],
+  "budget_level": 1,
+  "budget_notes": "Explicit moderate budget noted in request",
+  "location": "Lyon, France",
+  "client_preferences": [
+    "Space-saving fixtures desired"
+  ],
+  "urgency_level": "low",
+  "project_scope": "small",
+  "special_requirements": [
+    "Bathtub removal safety",
+    "Waterproofing for shower"
+  ],
+  "contact_details": {
+    "name": "not specified",
+    "phone": "not specified",
+    "email": "not specified"
+  },
+  "additional_notes": "Guest bathroom dimensions mentioned (3.5 square meters)",
+  "pricing_summary": {
+    "total_materials_cost": 1165,
+    "currency": "EUR",
+    "pricing_date": "2025-07-13",
+    "materials_priced": 11,
+    "materials_missing_pricing": 0,
+    "miscellaneous_costs_included": false,
+    "total_labor_cost": 2203.86,
+    "total_project_cost": 3368.8599999999997,
+    "location": "Lyon, France",
+    "regional_multiplier": 1.15,
+    "total_margin": 1035.53,
+    "subtotal_with_margin": 4404.39,
+    "total_vat": 284.46,
+    "final_project_cost": 4688.85,
+    "country": "france",
+    "budget_level": 1
+  }
+}

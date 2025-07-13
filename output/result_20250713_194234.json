@@ -1,0 +1,1084 @@
+{
+  "tasks": [
+    {
+      "task_id": "task_1",
+      "task_name": "Master bathroom renovation (6m²)",
+      "objectives": [
+        {
+          "objective_id": "obj_1a",
+          "description": "Install freestanding bathtub",
+          "labor_difficulty": 2,
+          "materials_required": [
+            {
+              "material": "Freestanding bathtub",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Freestanding bathtub (fallback data)",
+              "included_in_pricing": true
+            },
+            {
+              "material": "Bathtub plumbing kit",
+              "quantity": 1,
+              "unit": "set",
+              "unit_price": 100,
+              "unit_quantity": 1,
+              "price_unit": "set",
+              "total_cost": 100,
+              "description": "Estimated pricing for Bathtub plumbing kit (fallback data)",
+              "included_in_pricing": true
+            }
+          ],
+          "miscellaneous_materials": [
+            {
+              "material": "Level",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Level (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 8,
+          "confidence_score": 0.85,
+          "cost_breakdown": {
+            "materials_cost": 150,
+            "miscellaneous_cost": 50,
+            "total_materials_cost": 150,
+            "misc_cost_excluded": true,
+            "labor_cost": 302.82,
+            "total_cost": 452.82
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 2,
+            "difficulty_description": "Medium tasks - installations and standard repairs",
+            "estimated_hours": 8,
+            "base_hourly_rate": 35.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 35.0,
+            "regional_multiplier": 1.05,
+            "regional_hourly_rate": 36.75,
+            "confidence_adjustment": 1.03,
+            "final_hourly_rate": 37.85,
+            "total_labor_cost": 302.82
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_1a",
+            "description": "Install freestanding bathtub",
+            "materials_cost": 150,
+            "labor_cost": 302.82,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 8.25,
+            "labor_vat_amount": 30.282,
+            "total_vat_amount": 38.532,
+            "total_with_vat": 491.352,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Freestanding bathtub",
+                "cost": 50,
+                "vat_rate": 0.055,
+                "vat_amount": 2.75,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Bathtub plumbing kit",
+                "cost": 100,
+                "vat_rate": 0.055,
+                "vat_amount": 5.5,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.225,
+            "margin_amount": 101.88
+          },
+          "pricing_breakdown": {
+            "subtotal": 452.82,
+            "margin": 101.88,
+            "subtotal_with_margin": 554.7,
+            "vat_amount": 38.53,
+            "final_price": 593.24
+          }
+        },
+        {
+          "objective_id": "obj_1b",
+          "description": "Complete tiling replacement",
+          "labor_difficulty": 3,
+          "materials_required": [
+            {
+              "material": "Bathroom tiles",
+              "quantity": 60,
+              "unit": "m²",
+              "unit_price": 30,
+              "unit_quantity": 1,
+              "price_unit": "m²",
+              "total_cost": 1800,
+              "description": "Estimated pricing for Bathroom tiles (fallback data)",
+              "included_in_pricing": true
+            },
+            {
+              "material": "Grout",
+              "quantity": 2,
+              "unit": "kg",
+              "unit_price": 12,
+              "unit_quantity": 5,
+              "price_unit": "kg",
+              "total_cost": 24,
+              "description": "Estimated pricing for Grout (fallback data)",
+              "included_in_pricing": true
+            }
+          ],
+          "miscellaneous_materials": [
+            {
+              "material": "Tile cutter",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Tile cutter (fallback data)",
+              "included_in_pricing": false
+            },
+            {
+              "material": "Trowel",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Trowel (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 24,
+          "confidence_score": 0.9,
+          "cost_breakdown": {
+            "materials_cost": 1824,
+            "miscellaneous_cost": 100,
+            "total_materials_cost": 1824,
+            "misc_cost_excluded": true,
+            "labor_cost": 1285.2,
+            "total_cost": 3109.2
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 3,
+            "difficulty_description": "Hard tasks - complex installations and specialized work",
+            "estimated_hours": 24,
+            "base_hourly_rate": 50.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 50.0,
+            "regional_multiplier": 1.05,
+            "regional_hourly_rate": 52.5,
+            "confidence_adjustment": 1.02,
+            "final_hourly_rate": 53.55,
+            "total_labor_cost": 1285.2
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_1b",
+            "description": "Complete tiling replacement",
+            "materials_cost": 1824,
+            "labor_cost": 1285.2,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 100.32,
+            "labor_vat_amount": 128.52,
+            "total_vat_amount": 228.84,
+            "total_with_vat": 3338.04,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Bathroom tiles",
+                "cost": 1800,
+                "vat_rate": 0.055,
+                "vat_amount": 99.0,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Grout",
+                "cost": 24,
+                "vat_rate": 0.055,
+                "vat_amount": 1.32,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.225,
+            "margin_amount": 699.57
+          },
+          "pricing_breakdown": {
+            "subtotal": 3109.2,
+            "margin": 699.57,
+            "subtotal_with_margin": 3808.77,
+            "vat_amount": 228.84,
+            "final_price": 4037.61
+          }
+        },
+        {
+          "objective_id": "obj_1c",
+          "description": "Lighting upgrades",
+          "labor_difficulty": 2,
+          "materials_required": [
+            {
+              "material": "LED bathroom fixtures",
+              "quantity": 3,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 150,
+              "description": "Estimated pricing for LED bathroom fixtures (fallback data)",
+              "included_in_pricing": true
+            },
+            {
+              "material": "Mounting hardware",
+              "quantity": 3,
+              "unit": "set",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 150,
+              "description": "Estimated pricing for Mounting hardware (fallback data)",
+              "included_in_pricing": true
+            }
+          ],
+          "miscellaneous_materials": [
+            {
+              "material": "Screwdriver set",
+              "quantity": 1,
+              "unit": "set",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Screwdriver set (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 4,
+          "confidence_score": 0.8,
+          "cost_breakdown": {
+            "materials_cost": 300,
+            "miscellaneous_cost": 50,
+            "total_materials_cost": 300,
+            "misc_cost_excluded": true,
+            "labor_cost": 152.88,
+            "total_cost": 452.88
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 2,
+            "difficulty_description": "Medium tasks - installations and standard repairs",
+            "estimated_hours": 4,
+            "base_hourly_rate": 35.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 35.0,
+            "regional_multiplier": 1.05,
+            "regional_hourly_rate": 36.75,
+            "confidence_adjustment": 1.04,
+            "final_hourly_rate": 38.22,
+            "total_labor_cost": 152.88
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_1c",
+            "description": "Lighting upgrades",
+            "materials_cost": 300,
+            "labor_cost": 152.88,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 16.5,
+            "labor_vat_amount": 15.288,
+            "total_vat_amount": 31.788,
+            "total_with_vat": 484.668,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "LED bathroom fixtures",
+                "cost": 150,
+                "vat_rate": 0.055,
+                "vat_amount": 8.25,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Mounting hardware",
+                "cost": 150,
+                "vat_rate": 0.055,
+                "vat_amount": 8.25,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.225,
+            "margin_amount": 101.9
+          },
+          "pricing_breakdown": {
+            "subtotal": 452.88,
+            "margin": 101.9,
+            "subtotal_with_margin": 554.78,
+            "vat_amount": 31.79,
+            "final_price": 586.57
+          }
+        }
+      ],
+      "estimated_complexity": "medium",
+      "timeline_mentions": "not specified",
+      "total_materials_cost": 2274,
+      "total_labor_cost": 1740.9,
+      "total_cost": 4014.9,
+      "vat_breakdown": {
+        "work_type": "renovation",
+        "country": "france",
+        "objectives": [
+          {
+            "objective_id": "obj_1a",
+            "description": "Install freestanding bathtub",
+            "materials_cost": 150,
+            "labor_cost": 302.82,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 8.25,
+            "labor_vat_amount": 30.282,
+            "total_vat_amount": 38.532,
+            "total_with_vat": 491.352,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Freestanding bathtub",
+                "cost": 50,
+                "vat_rate": 0.055,
+                "vat_amount": 2.75,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Bathtub plumbing kit",
+                "cost": 100,
+                "vat_rate": 0.055,
+                "vat_amount": 5.5,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          {
+            "objective_id": "obj_1b",
+            "description": "Complete tiling replacement",
+            "materials_cost": 1824,
+            "labor_cost": 1285.2,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 100.32,
+            "labor_vat_amount": 128.52,
+            "total_vat_amount": 228.84,
+            "total_with_vat": 3338.04,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Bathroom tiles",
+                "cost": 1800,
+                "vat_rate": 0.055,
+                "vat_amount": 99.0,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Grout",
+                "cost": 24,
+                "vat_rate": 0.055,
+                "vat_amount": 1.32,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          {
+            "objective_id": "obj_1c",
+            "description": "Lighting upgrades",
+            "materials_cost": 300,
+            "labor_cost": 152.88,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 16.5,
+            "labor_vat_amount": 15.288,
+            "total_vat_amount": 31.788,
+            "total_with_vat": 484.668,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "LED bathroom fixtures",
+                "cost": 150,
+                "vat_rate": 0.055,
+                "vat_amount": 8.25,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Mounting hardware",
+                "cost": 150,
+                "vat_rate": 0.055,
+                "vat_amount": 8.25,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          }
+        ],
+        "materials_vat_total": 125.07,
+        "labor_vat_total": 174.09000000000003,
+        "total_vat": 299.16,
+        "effective_vat_rate": 0.07451244115669133
+      },
+      "margin_breakdown": {
+        "materials_margin_rate": 0.25,
+        "labor_margin_rate": 0.2,
+        "materials_margin": 568.5,
+        "labor_margin": 348.18,
+        "additional_margin": 602.24,
+        "total_margin": 1518.91,
+        "budget_adjustment": 0.1,
+        "complexity_adjustment": 0.05,
+        "location_multiplier": 1.0
+      },
+      "pricing_breakdown": {
+        "subtotal": 4014.9,
+        "margin": 1518.91,
+        "subtotal_with_margin": 5533.81,
+        "vat_amount": 299.16,
+        "final_price": 5832.97
+      }
+    },
+    {
+      "task_id": "task_2",
+      "task_name": "Ensuite bathroom renovation (2.5m²)",
+      "objectives": [
+        {
+          "objective_id": "obj_2a",
+          "description": "Shower replacement",
+          "labor_difficulty": 3,
+          "materials_required": [
+            {
+              "material": "Shower base",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 120,
+              "unit_quantity": 1,
+              "price_unit": "set",
+              "total_cost": 120,
+              "description": "Estimated pricing for Shower base (fallback data)",
+              "included_in_pricing": true
+            },
+            {
+              "material": "Showerhead",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 120,
+              "unit_quantity": 1,
+              "price_unit": "set",
+              "total_cost": 120,
+              "description": "Estimated pricing for Showerhead (fallback data)",
+              "included_in_pricing": true
+            }
+          ],
+          "miscellaneous_materials": [
+            {
+              "material": "Plumber's tape",
+              "quantity": 1,
+              "unit": "roll",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Plumber's tape (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 12,
+          "confidence_score": 0.95,
+          "cost_breakdown": {
+            "materials_cost": 240,
+            "miscellaneous_cost": 50,
+            "total_materials_cost": 240,
+            "misc_cost_excluded": true,
+            "labor_cost": 636.3,
+            "total_cost": 876.3
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 3,
+            "difficulty_description": "Hard tasks - complex installations and specialized work",
+            "estimated_hours": 12,
+            "base_hourly_rate": 50.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 50.0,
+            "regional_multiplier": 1.05,
+            "regional_hourly_rate": 52.5,
+            "confidence_adjustment": 1.01,
+            "final_hourly_rate": 53.02,
+            "total_labor_cost": 636.3
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_2a",
+            "description": "Shower replacement",
+            "materials_cost": 240,
+            "labor_cost": 636.3,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 13.2,
+            "labor_vat_amount": 63.629999999999995,
+            "total_vat_amount": 76.83,
+            "total_with_vat": 953.13,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Shower base",
+                "cost": 120,
+                "vat_rate": 0.055,
+                "vat_amount": 6.6,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Showerhead",
+                "cost": 120,
+                "vat_rate": 0.055,
+                "vat_amount": 6.6,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.225,
+            "margin_amount": 197.17
+          },
+          "pricing_breakdown": {
+            "subtotal": 876.3,
+            "margin": 197.17,
+            "subtotal_with_margin": 1073.47,
+            "vat_amount": 76.83,
+            "final_price": 1150.3
+          }
+        },
+        {
+          "objective_id": "obj_2b",
+          "description": "Vanity replacement",
+          "labor_difficulty": 2,
+          "materials_required": [
+            {
+              "material": "Bathroom vanity",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 200,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 200,
+              "description": "Estimated pricing for Bathroom vanity (fallback data)",
+              "included_in_pricing": true
+            }
+          ],
+          "miscellaneous_materials": [
+            {
+              "material": "Wrench set",
+              "quantity": 1,
+              "unit": "set",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Wrench set (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 8,
+          "confidence_score": 0.85,
+          "cost_breakdown": {
+            "materials_cost": 200,
+            "miscellaneous_cost": 50,
+            "total_materials_cost": 200,
+            "misc_cost_excluded": true,
+            "labor_cost": 302.82,
+            "total_cost": 502.82
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 2,
+            "difficulty_description": "Medium tasks - installations and standard repairs",
+            "estimated_hours": 8,
+            "base_hourly_rate": 35.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 35.0,
+            "regional_multiplier": 1.05,
+            "regional_hourly_rate": 36.75,
+            "confidence_adjustment": 1.03,
+            "final_hourly_rate": 37.85,
+            "total_labor_cost": 302.82
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_2b",
+            "description": "Vanity replacement",
+            "materials_cost": 200,
+            "labor_cost": 302.82,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 11.0,
+            "labor_vat_amount": 30.282,
+            "total_vat_amount": 41.282,
+            "total_with_vat": 544.102,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Bathroom vanity",
+                "cost": 200,
+                "vat_rate": 0.055,
+                "vat_amount": 11.0,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.225,
+            "margin_amount": 113.13
+          },
+          "pricing_breakdown": {
+            "subtotal": 502.82,
+            "margin": 113.13,
+            "subtotal_with_margin": 615.95,
+            "vat_amount": 41.28,
+            "final_price": 657.24
+          }
+        },
+        {
+          "objective_id": "obj_2c",
+          "description": "Ceiling water damage repair",
+          "labor_difficulty": 2,
+          "materials_required": [
+            {
+              "material": "Ceiling tiles",
+              "quantity": 5,
+              "unit": "piece",
+              "unit_price": 30,
+              "unit_quantity": 1,
+              "price_unit": "m²",
+              "total_cost": 150,
+              "description": "Estimated pricing for Ceiling tiles (fallback data)",
+              "included_in_pricing": true
+            },
+            {
+              "material": "Water resistant sealant",
+              "quantity": 2,
+              "unit": "tube",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 100,
+              "description": "Estimated pricing for Water resistant sealant (fallback data)",
+              "included_in_pricing": true
+            }
+          ],
+          "miscellaneous_materials": [
+            {
+              "material": "Screwdriver",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Screwdriver (fallback data)",
+              "included_in_pricing": false
+            },
+            {
+              "material": "Masking tape",
+              "quantity": 2,
+              "unit": "roll",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 100,
+              "description": "Estimated pricing for Masking tape (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 4,
+          "confidence_score": 0.7,
+          "cost_breakdown": {
+            "materials_cost": 250,
+            "miscellaneous_cost": 150,
+            "total_materials_cost": 250,
+            "misc_cost_excluded": true,
+            "labor_cost": 155.82000000000002,
+            "total_cost": 405.82000000000005
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 2,
+            "difficulty_description": "Medium tasks - installations and standard repairs",
+            "estimated_hours": 4,
+            "base_hourly_rate": 35.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 35.0,
+            "regional_multiplier": 1.05,
+            "regional_hourly_rate": 36.75,
+            "confidence_adjustment": 1.06,
+            "final_hourly_rate": 38.96,
+            "total_labor_cost": 155.82
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_2c",
+            "description": "Ceiling water damage repair",
+            "materials_cost": 250,
+            "labor_cost": 155.82000000000002,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 13.75,
+            "labor_vat_amount": 15.582000000000003,
+            "total_vat_amount": 29.332,
+            "total_with_vat": 435.15200000000004,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Ceiling tiles",
+                "cost": 150,
+                "vat_rate": 0.055,
+                "vat_amount": 8.25,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Water resistant sealant",
+                "cost": 100,
+                "vat_rate": 0.055,
+                "vat_amount": 5.5,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.225,
+            "margin_amount": 91.31
+          },
+          "pricing_breakdown": {
+            "subtotal": 405.82,
+            "margin": 91.31,
+            "subtotal_with_margin": 497.13,
+            "vat_amount": 29.33,
+            "final_price": 526.46
+          }
+        }
+      ],
+      "estimated_complexity": "medium",
+      "timeline_mentions": "not specified",
+      "total_materials_cost": 690,
+      "total_labor_cost": 1094.94,
+      "total_cost": 1784.9399999999998,
+      "vat_breakdown": {
+        "work_type": "renovation",
+        "country": "france",
+        "objectives": [
+          {
+            "objective_id": "obj_2a",
+            "description": "Shower replacement",
+            "materials_cost": 240,
+            "labor_cost": 636.3,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 13.2,
+            "labor_vat_amount": 63.629999999999995,
+            "total_vat_amount": 76.83,
+            "total_with_vat": 953.13,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Shower base",
+                "cost": 120,
+                "vat_rate": 0.055,
+                "vat_amount": 6.6,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Showerhead",
+                "cost": 120,
+                "vat_rate": 0.055,
+                "vat_amount": 6.6,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          {
+            "objective_id": "obj_2b",
+            "description": "Vanity replacement",
+            "materials_cost": 200,
+            "labor_cost": 302.82,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 11.0,
+            "labor_vat_amount": 30.282,
+            "total_vat_amount": 41.282,
+            "total_with_vat": 544.102,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Bathroom vanity",
+                "cost": 200,
+                "vat_rate": 0.055,
+                "vat_amount": 11.0,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          {
+            "objective_id": "obj_2c",
+            "description": "Ceiling water damage repair",
+            "materials_cost": 250,
+            "labor_cost": 155.82000000000002,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 13.75,
+            "labor_vat_amount": 15.582000000000003,
+            "total_vat_amount": 29.332,
+            "total_with_vat": 435.15200000000004,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Ceiling tiles",
+                "cost": 150,
+                "vat_rate": 0.055,
+                "vat_amount": 8.25,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Water resistant sealant",
+                "cost": 100,
+                "vat_rate": 0.055,
+                "vat_amount": 5.5,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          }
+        ],
+        "materials_vat_total": 37.95,
+        "labor_vat_total": 109.494,
+        "total_vat": 147.444,
+        "effective_vat_rate": 0.08260445729268209
+      },
+      "margin_breakdown": {
+        "materials_margin_rate": 0.25,
+        "labor_margin_rate": 0.2,
+        "materials_margin": 172.5,
+        "labor_margin": 218.99,
+        "additional_margin": 267.74,
+        "total_margin": 659.23,
+        "budget_adjustment": 0.1,
+        "complexity_adjustment": 0.05,
+        "location_multiplier": 1.0
+      },
+      "pricing_breakdown": {
+        "subtotal": 1784.94,
+        "margin": 659.23,
+        "subtotal_with_margin": 2444.17,
+        "vat_amount": 147.44,
+        "final_price": 2591.61
+      }
+    }
+  ],
+  "budget_level": 3,
+  "budget_notes": "Client mentioned 'budget is flexible depending on design'",
+  "location": "Toulouse, Occitanie, France",
+  "client_preferences": [
+    "Cohesive look between both bathrooms",
+    "Modern lighting upgrades",
+    "Freestanding tub in master bath",
+    "Updated vanity in ensuite"
+  ],
+  "urgency_level": "low",
+  "project_scope": "medium",
+  "special_requirements": [
+    "Minor water damage repair in ensuite",
+    "Complete tiling replacement in master bath"
+  ],
+  "contact_details": {
+    "name": "not specified",
+    "phone": "not specified",
+    "email": "not specified"
+  },
+  "additional_notes": "",
+  "pricing_summary": {
+    "total_materials_cost": 2964,
+    "currency": "EUR",
+    "pricing_date": "2025-07-13",
+    "materials_priced": 19,
+    "materials_missing_pricing": 0,
+    "miscellaneous_costs_included": false,
+    "total_labor_cost": 2835.84,
+    "total_project_cost": 5799.84,
+    "location": "Toulouse, Occitanie, France",
+    "regional_multiplier": 1.05,
+    "total_margin": 2178.14,
+    "subtotal_with_margin": 7977.98,
+    "total_vat": 446.6,
+    "final_project_cost": 8424.58,
+    "country": "france",
+    "budget_level": 3
+  }
+}

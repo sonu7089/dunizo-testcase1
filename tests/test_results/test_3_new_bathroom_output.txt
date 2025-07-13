@@ -1,0 +1,60 @@
+Test: test_3_new_bathroom
+Transcript: We're building an extension and want to add a new bathroom, roughly 5m². It'll need full plumbing installation, tiling, a shower enclosure, wall-hung toilet, and floating vanity. We haven't picked out materials yet, so would love recommendations. Our main concern is staying within a mid-range budget. Located in Nice.
+================================================================================
+Sending request to OpenRouter API...
+Parsing AI response to JSON...
+Enriching with material pricing...
+Found 17 unique materials to price...
+Successfully retrieved pricing for 17 materials
+Total materials cost (excluding miscellaneous): €2535
+Enriching with labor costs...
+Loaded 3 labor difficulty levels
+Calculating labor costs for location: Nice, France
+Total labor cost: €6331.2
+Total project cost: €8866.2
+Enriching with VAT and margins...
+Calculating VAT and margins for france (budget level: 2)
+Total margin: €3552.91
+Total VAT: €1773.2399999999998
+Final project cost: €14192.35
+Successfully parsed and saved fully enriched JSON to output\result_20250713_194257.json
+
+================================================================================
+COMPREHENSIVE PRICING SUMMARY
+================================================================================
+Tasks parsed: 1
+Location: Nice, France
+Budget Level: 2
+Project Scope: medium
+
+PRICING BREAKDOWN:
+Materials Cost: €2535
+Labor Cost: €6331.2
+Subtotal: €8866.2
+Total Margin: €3552.91
+Subtotal with Margin: €12419.11
+Total VAT: €1773.24
+FINAL PROJECT COST: €14192.35
+Country: france
+Budget Level: 2
+
+DETAILED TASK BREAKDOWN:
+
+1. New bathroom construction in building extension
+   Objectives: 5
+   Complexity: high
+   Subtotal: €8866.2
+   Margin: €3552.91
+   VAT: €1773.24
+   Final Price: €14192.35
+     1. Full plumbing system installation
+        Final Price: €5373.12 (Subtotal: €3712.0, Margin: €918.72, VAT: €742.4)
+     2. Tiling for walls and floor
+        Final Price: €4375.79 (Subtotal: €3023.0, Margin: €748.19, VAT: €604.6)
+     3. Shower enclosure installation
+        Final Price: €1412.18 (Subtotal: €975.6, Margin: €241.46, VAT: €195.12)
+     4. Wall-hung toilet installation
+        Final Price: €795.31 (Subtotal: €549.44, Margin: €135.99, VAT: €109.89)
+     5. Floating vanity installation
+        Final Price: €877.42 (Subtotal: €606.16, Margin: €150.02, VAT: €121.23)
+================================================================================

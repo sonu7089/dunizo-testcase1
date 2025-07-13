@@ -1,0 +1,907 @@
+{
+  "tasks": [
+    {
+      "task_id": "task_1",
+      "task_name": "New bathroom construction in building extension",
+      "objectives": [
+        {
+          "objective_id": "obj_1",
+          "description": "Full plumbing system installation",
+          "labor_difficulty": 3,
+          "materials_required": [
+            {
+              "material": "Plumbing pipes",
+              "quantity": 30,
+              "unit": "m",
+              "unit_price": 8,
+              "unit_quantity": 1,
+              "price_unit": "m",
+              "total_cost": 240,
+              "description": "PVC plumbing pipes for water supply",
+              "included_in_pricing": true
+            },
+            {
+              "material": "DWV piping",
+              "quantity": 20,
+              "unit": "m",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 1000,
+              "description": "Estimated pricing for DWV piping (fallback data)",
+              "included_in_pricing": true
+            }
+          ],
+          "miscellaneous_materials": [
+            {
+              "material": "Plumber's wrench set",
+              "quantity": 1,
+              "unit": "set",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Plumber's wrench set (fallback data)",
+              "included_in_pricing": false
+            },
+            {
+              "material": "Pipe seals",
+              "quantity": 1,
+              "unit": "box",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Pipe seals (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 40,
+          "confidence_score": 0.85,
+          "cost_breakdown": {
+            "materials_cost": 1240,
+            "miscellaneous_cost": 100,
+            "total_materials_cost": 1240,
+            "misc_cost_excluded": true,
+            "labor_cost": 2472.0,
+            "total_cost": 3712.0
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 3,
+            "difficulty_description": "Hard tasks - complex installations and specialized work",
+            "estimated_hours": 40,
+            "base_hourly_rate": 50.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 50.0,
+            "regional_multiplier": 1.2,
+            "regional_hourly_rate": 60.0,
+            "confidence_adjustment": 1.03,
+            "final_hourly_rate": 61.8,
+            "total_labor_cost": 2472.0
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_1",
+            "description": "Full plumbing system installation",
+            "materials_cost": 1240,
+            "labor_cost": 2472.0,
+            "materials_vat_rate": 0.2,
+            "labor_vat_rate": 0.2,
+            "materials_vat_amount": 248.0,
+            "labor_vat_amount": 494.40000000000003,
+            "total_vat_amount": 742.4000000000001,
+            "total_with_vat": 4454.4,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "material_details": [
+              {
+                "material": "Plumbing pipes",
+                "cost": 240,
+                "vat_rate": 0.2,
+                "vat_amount": 48.0,
+                "rate_type": "standard"
+              },
+              {
+                "material": "DWV piping",
+                "cost": 1000,
+                "vat_rate": 0.2,
+                "vat_amount": 200.0,
+                "rate_type": "standard"
+              }
+            ]
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.247,
+            "margin_amount": 918.72
+          },
+          "pricing_breakdown": {
+            "subtotal": 3712.0,
+            "margin": 918.72,
+            "subtotal_with_margin": 4630.72,
+            "vat_amount": 742.4,
+            "final_price": 5373.12
+          }
+        },
+        {
+          "objective_id": "obj_2",
+          "description": "Tiling for walls and floor",
+          "labor_difficulty": 3,
+          "materials_required": [
+            {
+              "material": "Ceramic tiles",
+              "quantity": 20,
+              "unit": "m²",
+              "unit_price": 25,
+              "unit_quantity": 1,
+              "price_unit": "m²",
+              "total_cost": 500,
+              "description": "Standard ceramic floor tiles for bathroom flooring",
+              "included_in_pricing": true
+            },
+            {
+              "material": "Tiling adhesive",
+              "quantity": 5,
+              "unit": "kg",
+              "unit_price": 15,
+              "unit_quantity": 20,
+              "price_unit": "kg",
+              "total_cost": 75,
+              "description": "Estimated pricing for Tiling adhesive (fallback data)",
+              "included_in_pricing": true
+            }
+          ],
+          "miscellaneous_materials": [
+            {
+              "material": "Tile cutter",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Tile cutter (fallback data)",
+              "included_in_pricing": false
+            },
+            {
+              "material": "Grouting tools",
+              "quantity": 1,
+              "unit": "set",
+              "unit_price": 12,
+              "unit_quantity": 5,
+              "price_unit": "kg",
+              "total_cost": 12,
+              "description": "Estimated pricing for Grouting tools (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 40,
+          "confidence_score": 0.9,
+          "cost_breakdown": {
+            "materials_cost": 575,
+            "miscellaneous_cost": 62,
+            "total_materials_cost": 575,
+            "misc_cost_excluded": true,
+            "labor_cost": 2448.0,
+            "total_cost": 3023.0
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 3,
+            "difficulty_description": "Hard tasks - complex installations and specialized work",
+            "estimated_hours": 40,
+            "base_hourly_rate": 50.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 50.0,
+            "regional_multiplier": 1.2,
+            "regional_hourly_rate": 60.0,
+            "confidence_adjustment": 1.02,
+            "final_hourly_rate": 61.2,
+            "total_labor_cost": 2448.0
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_2",
+            "description": "Tiling for walls and floor",
+            "materials_cost": 575,
+            "labor_cost": 2448.0,
+            "materials_vat_rate": 0.2,
+            "labor_vat_rate": 0.2,
+            "materials_vat_amount": 115.0,
+            "labor_vat_amount": 489.6,
+            "total_vat_amount": 604.6,
+            "total_with_vat": 3627.6,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "material_details": [
+              {
+                "material": "Ceramic tiles",
+                "cost": 500,
+                "vat_rate": 0.2,
+                "vat_amount": 100.0,
+                "rate_type": "standard"
+              },
+              {
+                "material": "Tiling adhesive",
+                "cost": 75,
+                "vat_rate": 0.2,
+                "vat_amount": 15.0,
+                "rate_type": "standard"
+              }
+            ]
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.247,
+            "margin_amount": 748.19
+          },
+          "pricing_breakdown": {
+            "subtotal": 3023.0,
+            "margin": 748.19,
+            "subtotal_with_margin": 3771.19,
+            "vat_amount": 604.6,
+            "final_price": 4375.79
+          }
+        },
+        {
+          "objective_id": "obj_3",
+          "description": "Shower enclosure installation",
+          "labor_difficulty": 2,
+          "materials_required": [
+            {
+              "material": "Shower base",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 120,
+              "unit_quantity": 1,
+              "price_unit": "set",
+              "total_cost": 120,
+              "description": "Estimated pricing for Shower base (fallback data)",
+              "included_in_pricing": true
+            },
+            {
+              "material": "Glass panels",
+              "quantity": 3,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 150,
+              "description": "Estimated pricing for Glass panels (fallback data)",
+              "included_in_pricing": true
+            }
+          ],
+          "miscellaneous_materials": [
+            {
+              "material": "Sealant",
+              "quantity": 2,
+              "unit": "tube",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 100,
+              "description": "Estimated pricing for Sealant (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 16,
+          "confidence_score": 0.75,
+          "cost_breakdown": {
+            "materials_cost": 270,
+            "miscellaneous_cost": 100,
+            "total_materials_cost": 270,
+            "misc_cost_excluded": true,
+            "labor_cost": 705.6,
+            "total_cost": 975.6
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 2,
+            "difficulty_description": "Medium tasks - installations and standard repairs",
+            "estimated_hours": 16,
+            "base_hourly_rate": 35.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 35.0,
+            "regional_multiplier": 1.2,
+            "regional_hourly_rate": 42.0,
+            "confidence_adjustment": 1.05,
+            "final_hourly_rate": 44.1,
+            "total_labor_cost": 705.6
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_3",
+            "description": "Shower enclosure installation",
+            "materials_cost": 270,
+            "labor_cost": 705.6,
+            "materials_vat_rate": 0.2,
+            "labor_vat_rate": 0.2,
+            "materials_vat_amount": 54.0,
+            "labor_vat_amount": 141.12,
+            "total_vat_amount": 195.12,
+            "total_with_vat": 1170.7199999999998,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "material_details": [
+              {
+                "material": "Shower base",
+                "cost": 120,
+                "vat_rate": 0.2,
+                "vat_amount": 24.0,
+                "rate_type": "standard"
+              },
+              {
+                "material": "Glass panels",
+                "cost": 150,
+                "vat_rate": 0.2,
+                "vat_amount": 30.0,
+                "rate_type": "standard"
+              }
+            ]
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.247,
+            "margin_amount": 241.46
+          },
+          "pricing_breakdown": {
+            "subtotal": 975.6,
+            "margin": 241.46,
+            "subtotal_with_margin": 1217.06,
+            "vat_amount": 195.12,
+            "final_price": 1412.18
+          }
+        },
+        {
+          "objective_id": "obj_4",
+          "description": "Wall-hung toilet installation",
+          "labor_difficulty": 2,
+          "materials_required": [
+            {
+              "material": "Wall-mounted toilet",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 150,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 150,
+              "description": "Estimated pricing for Wall-mounted toilet (fallback data)",
+              "included_in_pricing": true
+            },
+            {
+              "material": "Hidden installation kit",
+              "quantity": 1,
+              "unit": "set",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Hidden installation kit (fallback data)",
+              "included_in_pricing": true
+            }
+          ],
+          "miscellaneous_materials": [
+            {
+              "material": "Mounting brackets",
+              "quantity": 4,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 200,
+              "description": "Estimated pricing for Mounting brackets (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 8,
+          "confidence_score": 0.8,
+          "cost_breakdown": {
+            "materials_cost": 200,
+            "miscellaneous_cost": 200,
+            "total_materials_cost": 200,
+            "misc_cost_excluded": true,
+            "labor_cost": 349.44,
+            "total_cost": 549.44
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 2,
+            "difficulty_description": "Medium tasks - installations and standard repairs",
+            "estimated_hours": 8,
+            "base_hourly_rate": 35.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 35.0,
+            "regional_multiplier": 1.2,
+            "regional_hourly_rate": 42.0,
+            "confidence_adjustment": 1.04,
+            "final_hourly_rate": 43.68,
+            "total_labor_cost": 349.44
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_4",
+            "description": "Wall-hung toilet installation",
+            "materials_cost": 200,
+            "labor_cost": 349.44,
+            "materials_vat_rate": 0.2,
+            "labor_vat_rate": 0.2,
+            "materials_vat_amount": 40.0,
+            "labor_vat_amount": 69.888,
+            "total_vat_amount": 109.888,
+            "total_with_vat": 659.3280000000001,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "material_details": [
+              {
+                "material": "Wall-mounted toilet",
+                "cost": 150,
+                "vat_rate": 0.2,
+                "vat_amount": 30.0,
+                "rate_type": "standard"
+              },
+              {
+                "material": "Hidden installation kit",
+                "cost": 50,
+                "vat_rate": 0.2,
+                "vat_amount": 10.0,
+                "rate_type": "standard"
+              }
+            ]
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.247,
+            "margin_amount": 135.99
+          },
+          "pricing_breakdown": {
+            "subtotal": 549.44,
+            "margin": 135.99,
+            "subtotal_with_margin": 685.43,
+            "vat_amount": 109.89,
+            "final_price": 795.31
+          }
+        },
+        {
+          "objective_id": "obj_5",
+          "description": "Floating vanity installation",
+          "labor_difficulty": 2,
+          "materials_required": [
+            {
+              "material": "Floating vanity unit",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 200,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 200,
+              "description": "Estimated pricing for Floating vanity unit (fallback data)",
+              "included_in_pricing": true
+            },
+            {
+              "material": "Sink basin",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Sink basin (fallback data)",
+              "included_in_pricing": true
+            }
+          ],
+          "miscellaneous_materials": [
+            {
+              "material": "Pipe fittings",
+              "quantity": 4,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 200,
+              "description": "Estimated pricing for Pipe fittings (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 8,
+          "confidence_score": 0.7,
+          "cost_breakdown": {
+            "materials_cost": 250,
+            "miscellaneous_cost": 200,
+            "total_materials_cost": 250,
+            "misc_cost_excluded": true,
+            "labor_cost": 356.16,
+            "total_cost": 606.1600000000001
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 2,
+            "difficulty_description": "Medium tasks - installations and standard repairs",
+            "estimated_hours": 8,
+            "base_hourly_rate": 35.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 35.0,
+            "regional_multiplier": 1.2,
+            "regional_hourly_rate": 42.0,
+            "confidence_adjustment": 1.06,
+            "final_hourly_rate": 44.52,
+            "total_labor_cost": 356.16
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_5",
+            "description": "Floating vanity installation",
+            "materials_cost": 250,
+            "labor_cost": 356.16,
+            "materials_vat_rate": 0.2,
+            "labor_vat_rate": 0.2,
+            "materials_vat_amount": 50.0,
+            "labor_vat_amount": 71.23200000000001,
+            "total_vat_amount": 121.23200000000001,
+            "total_with_vat": 727.392,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "material_details": [
+              {
+                "material": "Floating vanity unit",
+                "cost": 200,
+                "vat_rate": 0.2,
+                "vat_amount": 40.0,
+                "rate_type": "standard"
+              },
+              {
+                "material": "Sink basin",
+                "cost": 50,
+                "vat_rate": 0.2,
+                "vat_amount": 10.0,
+                "rate_type": "standard"
+              }
+            ]
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.247,
+            "margin_amount": 150.02
+          },
+          "pricing_breakdown": {
+            "subtotal": 606.16,
+            "margin": 150.02,
+            "subtotal_with_margin": 756.18,
+            "vat_amount": 121.23,
+            "final_price": 877.42
+          }
+        }
+      ],
+      "estimated_complexity": "high",
+      "timeline_mentions": "Project start date not specified",
+      "total_materials_cost": 2535,
+      "total_labor_cost": 6331.2,
+      "total_cost": 8866.2,
+      "vat_breakdown": {
+        "work_type": "new_construction",
+        "country": "france",
+        "objectives": [
+          {
+            "objective_id": "obj_1",
+            "description": "Full plumbing system installation",
+            "materials_cost": 1240,
+            "labor_cost": 2472.0,
+            "materials_vat_rate": 0.2,
+            "labor_vat_rate": 0.2,
+            "materials_vat_amount": 248.0,
+            "labor_vat_amount": 494.40000000000003,
+            "total_vat_amount": 742.4000000000001,
+            "total_with_vat": 4454.4,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "material_details": [
+              {
+                "material": "Plumbing pipes",
+                "cost": 240,
+                "vat_rate": 0.2,
+                "vat_amount": 48.0,
+                "rate_type": "standard"
+              },
+              {
+                "material": "DWV piping",
+                "cost": 1000,
+                "vat_rate": 0.2,
+                "vat_amount": 200.0,
+                "rate_type": "standard"
+              }
+            ]
+          },
+          {
+            "objective_id": "obj_2",
+            "description": "Tiling for walls and floor",
+            "materials_cost": 575,
+            "labor_cost": 2448.0,
+            "materials_vat_rate": 0.2,
+            "labor_vat_rate": 0.2,
+            "materials_vat_amount": 115.0,
+            "labor_vat_amount": 489.6,
+            "total_vat_amount": 604.6,
+            "total_with_vat": 3627.6,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "material_details": [
+              {
+                "material": "Ceramic tiles",
+                "cost": 500,
+                "vat_rate": 0.2,
+                "vat_amount": 100.0,
+                "rate_type": "standard"
+              },
+              {
+                "material": "Tiling adhesive",
+                "cost": 75,
+                "vat_rate": 0.2,
+                "vat_amount": 15.0,
+                "rate_type": "standard"
+              }
+            ]
+          },
+          {
+            "objective_id": "obj_3",
+            "description": "Shower enclosure installation",
+            "materials_cost": 270,
+            "labor_cost": 705.6,
+            "materials_vat_rate": 0.2,
+            "labor_vat_rate": 0.2,
+            "materials_vat_amount": 54.0,
+            "labor_vat_amount": 141.12,
+            "total_vat_amount": 195.12,
+            "total_with_vat": 1170.7199999999998,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "material_details": [
+              {
+                "material": "Shower base",
+                "cost": 120,
+                "vat_rate": 0.2,
+                "vat_amount": 24.0,
+                "rate_type": "standard"
+              },
+              {
+                "material": "Glass panels",
+                "cost": 150,
+                "vat_rate": 0.2,
+                "vat_amount": 30.0,
+                "rate_type": "standard"
+              }
+            ]
+          },
+          {
+            "objective_id": "obj_4",
+            "description": "Wall-hung toilet installation",
+            "materials_cost": 200,
+            "labor_cost": 349.44,
+            "materials_vat_rate": 0.2,
+            "labor_vat_rate": 0.2,
+            "materials_vat_amount": 40.0,
+            "labor_vat_amount": 69.888,
+            "total_vat_amount": 109.888,
+            "total_with_vat": 659.3280000000001,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "material_details": [
+              {
+                "material": "Wall-mounted toilet",
+                "cost": 150,
+                "vat_rate": 0.2,
+                "vat_amount": 30.0,
+                "rate_type": "standard"
+              },
+              {
+                "material": "Hidden installation kit",
+                "cost": 50,
+                "vat_rate": 0.2,
+                "vat_amount": 10.0,
+                "rate_type": "standard"
+              }
+            ]
+          },
+          {
+            "objective_id": "obj_5",
+            "description": "Floating vanity installation",
+            "materials_cost": 250,
+            "labor_cost": 356.16,
+            "materials_vat_rate": 0.2,
+            "labor_vat_rate": 0.2,
+            "materials_vat_amount": 50.0,
+            "labor_vat_amount": 71.23200000000001,
+            "total_vat_amount": 121.23200000000001,
+            "total_with_vat": 727.392,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.2,
+              "rate_type": "standard",
+              "reductions": [],
+              "explanation": "Standard VAT rate for france"
+            },
+            "material_details": [
+              {
+                "material": "Floating vanity unit",
+                "cost": 200,
+                "vat_rate": 0.2,
+                "vat_amount": 40.0,
+                "rate_type": "standard"
+              },
+              {
+                "material": "Sink basin",
+                "cost": 50,
+                "vat_rate": 0.2,
+                "vat_amount": 10.0,
+                "rate_type": "standard"
+              }
+            ]
+          }
+        ],
+        "materials_vat_total": 507.0,
+        "labor_vat_total": 1266.2399999999998,
+        "total_vat": 1773.2399999999998,
+        "effective_vat_rate": 0.19999999999999996
+      },
+      "margin_breakdown": {
+        "materials_margin_rate": 0.275,
+        "labor_margin_rate": 0.22,
+        "materials_margin": 697.12,
+        "labor_margin": 1392.86,
+        "additional_margin": 1462.92,
+        "total_margin": 3552.91,
+        "budget_adjustment": 0.05,
+        "complexity_adjustment": 0.1,
+        "location_multiplier": 1.1
+      },
+      "pricing_breakdown": {
+        "subtotal": 8866.2,
+        "margin": 3552.91,
+        "subtotal_with_margin": 12419.11,
+        "vat_amount": 1773.24,
+        "final_price": 14192.35
+      }
+    }
+  ],
+  "budget_level": 2,
+  "budget_notes": "Explicit mention of mid-range budget concerns",
+  "location": "Nice, France",
+  "client_preferences": [
+    "Material recommendations needed for plumbing fixtures, tiles, and vanities",
+    "Cost-effective solutions within mid-tier range"
+  ],
+  "urgency_level": "low",
+  "project_scope": "medium",
+  "special_requirements": [
+    "Complete plumbing installation coordination",
+    "Integration into new building extension"
+  ],
+  "contact_details": {
+    "name": "not specified",
+    "phone": "not specified",
+    "email": "not specified"
+  },
+  "additional_notes": "Recommendations requested for all plumbing fixtures and vanity installations. Bathroom area is approximately 5m²",
+  "pricing_summary": {
+    "total_materials_cost": 2535,
+    "currency": "EUR",
+    "pricing_date": "2025-07-13",
+    "materials_priced": 17,
+    "materials_missing_pricing": 0,
+    "miscellaneous_costs_included": false,
+    "total_labor_cost": 6331.2,
+    "total_project_cost": 8866.2,
+    "location": "Nice, France",
+    "regional_multiplier": 1.2,
+    "total_margin": 3552.91,
+    "subtotal_with_margin": 12419.11,
+    "total_vat": 1773.24,
+    "final_project_cost": 14192.35,
+    "country": "france",
+    "budget_level": 2
+  }
+}

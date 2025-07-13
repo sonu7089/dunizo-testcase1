@@ -1,0 +1,4 @@
+labor_difficulty,base_hourly_rate,skill_multiplier,complexity_factor,description,typical_tasks
+1,25.0,1.0,1.0,Basic tasks - cleaning and simple maintenance,cleaning;basic maintenance;simple fixture replacement;mirror installation;caulking;touch-up painting;basic caulking;simple repairs
+2,35.0,1.0,1.0,Medium tasks - installations and standard repairs,toilet installation;vanity mounting;basic tiling;shower head replacement;minor plumbing repairs;faucet installation;basic electrical work;standard demolition
+3,50.0,1.0,1.0,Hard tasks - complex installations and specialized work,plumbing rerouting;electrical work;waterproofing;complex tile work;structural changes;major demolition;custom installations;specialized repairs

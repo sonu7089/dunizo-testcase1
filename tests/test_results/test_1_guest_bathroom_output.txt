@@ -1,0 +1,76 @@
+Test: test_1_guest_bathroom
+Transcript: We're looking to upgrade our guest bathroom — it's about 3.5 square meters. We'd like to remove the existing bathtub and replace it with a walk-in shower. The sink and mirror cabinet need to be modernized too. We'd also appreciate help choosing space-saving fixtures. Budget is moderate. We're in Lyon.
+================================================================================
+Sending request to OpenRouter API...
+Parsing AI response to JSON...
+Enriching with material pricing...
+Found 14 unique materials to price...
+Successfully retrieved pricing for 14 materials
+Total materials cost (excluding miscellaneous): €306
+Enriching with labor costs...
+Loaded 3 labor difficulty levels
+Calculating labor costs for location: Lyon, Auvergne-Rhône-Alpes, France
+Total labor cost: €1456.0149999999999
+Total project cost: €1762.0149999999999
+Enriching with VAT and margins...
+Calculating VAT and margins for france (budget level: 1)
+Total margin: €599.6899999999999
+Total VAT: €162.4315
+Final project cost: €2524.1365
+Successfully parsed and saved fully enriched JSON to output\result_20250713_194209.json
+
+================================================================================
+COMPREHENSIVE PRICING SUMMARY
+================================================================================
+Tasks parsed: 3
+Location: Lyon, Auvergne-Rhône-Alpes, France
+Budget Level: 1
+Project Scope: medium
+
+PRICING BREAKDOWN:
+Materials Cost: €306
+Labor Cost: €1456.01
+Subtotal: €1762.0149999999999
+Total Margin: €599.69
+Subtotal with Margin: €2361.7
+Total VAT: €162.43
+FINAL PROJECT COST: €2524.14
+Country: france
+Budget Level: 1
+
+DETAILED TASK BREAKDOWN:
+
+1. Convert bathtub to walk-in shower
+   Objectives: 2
+   Complexity: high
+   Subtotal: €1374.4
+   Margin: €486.01
+   VAT: €128.17
+   Final Price: €1988.58
+     1. Demolish existing bathtub and surrounding tiling
+        Final Price: €667.5 (Subtotal: €514.6, Margin: €103.69, VAT: €49.21)
+     2. Install new shower base and waterproofing
+        Final Price: €1112.01 (Subtotal: €859.8, Margin: €173.25, VAT: €78.96)
+
+2. Replace sink and mirror cabinet
+   Objectives: 2
+   Complexity: medium
+   Subtotal: €326.66
+   Margin: €99.66
+   VAT: €28.17
+   Final Price: €454.49
+     1. Remove old sink and cabinet
+        Final Price: €73.68 (Subtotal: €59.22, Margin: €8.53, VAT: €5.92)
+     2. Install new sink and mirror cabinet
+        Final Price: €328.2 (Subtotal: €267.44, Margin: €38.51, VAT: €22.24)
+
+3. Select space-saving fixtures
+   Objectives: 1
+   Complexity: low
+   Subtotal: €60.95
+   Margin: €14.02
+   VAT: €6.09
+   Final Price: €81.06
+     1. Provide consultation on efficient fixtures
+        Final Price: €72.29 (Subtotal: €60.95, Margin: €5.24, VAT: €6.09)
+================================================================================

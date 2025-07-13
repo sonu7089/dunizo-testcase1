@@ -1,0 +1,70 @@
+Test: test_2_dual_bathrooms
+Transcript: We have two bathrooms we want to renovate. First is the master bath — around 6m². We'd like to install a freestanding tub, redo the tiling completely, and upgrade the lighting. The second is a smaller ensuite — just 2.5m². We need to replace the shower, update the vanity, and fix some minor water damage on the ceiling. We'd like both to have a cohesive look. Budget is flexible, depending on design. We're based in Toulouse.
+================================================================================
+Sending request to OpenRouter API...
+Parsing AI response to JSON...
+Enriching with material pricing...
+Found 19 unique materials to price...
+Successfully retrieved pricing for 19 materials
+Total materials cost (excluding miscellaneous): €2964
+Enriching with labor costs...
+Loaded 3 labor difficulty levels
+Calculating labor costs for location: Toulouse, Occitanie, France
+Total labor cost: €2835.84
+Total project cost: €5799.84
+Enriching with VAT and margins...
+Calculating VAT and margins for france (budget level: 3)
+Total margin: €2178.1400000000003
+Total VAT: €446.60400000000004
+Final project cost: €8424.584
+Successfully parsed and saved fully enriched JSON to output\result_20250713_194234.json
+
+================================================================================
+COMPREHENSIVE PRICING SUMMARY
+================================================================================
+Tasks parsed: 2
+Location: Toulouse, Occitanie, France
+Budget Level: 3
+Project Scope: medium
+
+PRICING BREAKDOWN:
+Materials Cost: €2964
+Labor Cost: €2835.84
+Subtotal: €5799.84
+Total Margin: €2178.14
+Subtotal with Margin: €7977.98
+Total VAT: €446.6
+FINAL PROJECT COST: €8424.58
+Country: france
+Budget Level: 3
+
+DETAILED TASK BREAKDOWN:
+
+1. Master bathroom renovation (6m²)
+   Objectives: 3
+   Complexity: medium
+   Subtotal: €4014.9
+   Margin: €1518.91
+   VAT: €299.16
+   Final Price: €5832.97
+     1. Install freestanding bathtub
+        Final Price: €593.24 (Subtotal: €452.82, Margin: €101.88, VAT: €38.53)
+     2. Complete tiling replacement
+        Final Price: €4037.61 (Subtotal: €3109.2, Margin: €699.57, VAT: €228.84)
+     3. Lighting upgrades
+        Final Price: €586.57 (Subtotal: €452.88, Margin: €101.9, VAT: €31.79)
+
+2. Ensuite bathroom renovation (2.5m²)
+   Objectives: 3
+   Complexity: medium
+   Subtotal: €1784.94
+   Margin: €659.23
+   VAT: €147.44
+   Final Price: €2591.61
+     1. Shower replacement
+        Final Price: €1150.3 (Subtotal: €876.3, Margin: €197.17, VAT: €76.83)
+     2. Vanity replacement
+        Final Price: €657.24 (Subtotal: €502.82, Margin: €113.13, VAT: €41.28)
+     3. Ceiling water damage repair
+        Final Price: €526.46 (Subtotal: €405.82, Margin: €91.31, VAT: €29.33)
+================================================================================

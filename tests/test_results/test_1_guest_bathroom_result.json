@@ -1,0 +1,876 @@
+{
+  "tasks": [
+    {
+      "task_id": "task_1",
+      "task_name": "Convert bathtub to walk-in shower",
+      "objectives": [
+        {
+          "objective_id": "obj_1",
+          "description": "Demolish existing bathtub and surrounding tiling",
+          "labor_difficulty": 3,
+          "materials_required": [
+            {
+              "material": "Demolition tools",
+              "quantity": 1,
+              "unit": "set",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Demolition tools (fallback data)",
+              "included_in_pricing": true
+            }
+          ],
+          "miscellaneous_materials": [
+            {
+              "material": "Safety goggles",
+              "quantity": 2,
+              "unit": "pair",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 100,
+              "description": "Estimated pricing for Safety goggles (fallback data)",
+              "included_in_pricing": false
+            },
+            {
+              "material": "Dust masks",
+              "quantity": 2,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 100,
+              "description": "Estimated pricing for Dust masks (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 8,
+          "confidence_score": 0.95,
+          "cost_breakdown": {
+            "materials_cost": 50,
+            "miscellaneous_cost": 200,
+            "total_materials_cost": 50,
+            "misc_cost_excluded": true,
+            "labor_cost": 464.59999999999997,
+            "total_cost": 514.5999999999999
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 3,
+            "difficulty_description": "Hard tasks - complex installations and specialized work",
+            "estimated_hours": 8,
+            "base_hourly_rate": 50.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 50.0,
+            "regional_multiplier": 1.15,
+            "regional_hourly_rate": 57.5,
+            "confidence_adjustment": 1.01,
+            "final_hourly_rate": 58.07,
+            "total_labor_cost": 464.6
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_1",
+            "description": "Demolish existing bathtub and surrounding tiling",
+            "materials_cost": 50,
+            "labor_cost": 464.59999999999997,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 2.75,
+            "labor_vat_amount": 46.46,
+            "total_vat_amount": 49.21,
+            "total_with_vat": 563.81,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Demolition tools",
+                "cost": 50,
+                "vat_rate": 0.055,
+                "vat_amount": 2.75,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.202,
+            "margin_amount": 103.69
+          },
+          "pricing_breakdown": {
+            "subtotal": 514.6,
+            "margin": 103.69,
+            "subtotal_with_margin": 618.29,
+            "vat_amount": 49.21,
+            "final_price": 667.5
+          }
+        },
+        {
+          "objective_id": "obj_2",
+          "description": "Install new shower base and waterproofing",
+          "labor_difficulty": 3,
+          "materials_required": [
+            {
+              "material": "Shower base",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 120,
+              "unit_quantity": 1,
+              "price_unit": "set",
+              "total_cost": 120,
+              "description": "Estimated pricing for Shower base (fallback data)",
+              "included_in_pricing": true
+            },
+            {
+              "material": "Waterproofing membrane",
+              "quantity": 2,
+              "unit": "roll",
+              "unit_price": 18,
+              "unit_quantity": 1,
+              "price_unit": "m²",
+              "total_cost": 36,
+              "description": "Waterproof membrane for bathroom floor and walls",
+              "included_in_pricing": true
+            }
+          ],
+          "miscellaneous_materials": [
+            {
+              "material": "Plumber's wrench",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Plumber's wrench (fallback data)",
+              "included_in_pricing": false
+            },
+            {
+              "material": "Silicone sealant",
+              "quantity": 2,
+              "unit": "tube",
+              "unit_price": 6,
+              "unit_quantity": 1,
+              "price_unit": "tube",
+              "total_cost": 12,
+              "description": "Waterproof silicone sealant for joints",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 12,
+          "confidence_score": 0.9,
+          "cost_breakdown": {
+            "materials_cost": 156,
+            "miscellaneous_cost": 62,
+            "total_materials_cost": 156,
+            "misc_cost_excluded": true,
+            "labor_cost": 703.8,
+            "total_cost": 859.8
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 3,
+            "difficulty_description": "Hard tasks - complex installations and specialized work",
+            "estimated_hours": 12,
+            "base_hourly_rate": 50.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 50.0,
+            "regional_multiplier": 1.15,
+            "regional_hourly_rate": 57.5,
+            "confidence_adjustment": 1.02,
+            "final_hourly_rate": 58.65,
+            "total_labor_cost": 703.8
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_2",
+            "description": "Install new shower base and waterproofing",
+            "materials_cost": 156,
+            "labor_cost": 703.8,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 8.58,
+            "labor_vat_amount": 70.38,
+            "total_vat_amount": 78.96,
+            "total_with_vat": 938.76,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Shower base",
+                "cost": 120,
+                "vat_rate": 0.055,
+                "vat_amount": 6.6,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Waterproofing membrane",
+                "cost": 36,
+                "vat_rate": 0.055,
+                "vat_amount": 1.98,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.202,
+            "margin_amount": 173.25
+          },
+          "pricing_breakdown": {
+            "subtotal": 859.8,
+            "margin": 173.25,
+            "subtotal_with_margin": 1033.05,
+            "vat_amount": 78.96,
+            "final_price": 1112.01
+          }
+        }
+      ],
+      "estimated_complexity": "high",
+      "timeline_mentions": "not specified",
+      "total_materials_cost": 206,
+      "total_labor_cost": 1168.4,
+      "total_cost": 1374.3999999999999,
+      "vat_breakdown": {
+        "work_type": "renovation",
+        "country": "france",
+        "objectives": [
+          {
+            "objective_id": "obj_1",
+            "description": "Demolish existing bathtub and surrounding tiling",
+            "materials_cost": 50,
+            "labor_cost": 464.59999999999997,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 2.75,
+            "labor_vat_amount": 46.46,
+            "total_vat_amount": 49.21,
+            "total_with_vat": 563.81,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Demolition tools",
+                "cost": 50,
+                "vat_rate": 0.055,
+                "vat_amount": 2.75,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          {
+            "objective_id": "obj_2",
+            "description": "Install new shower base and waterproofing",
+            "materials_cost": 156,
+            "labor_cost": 703.8,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 8.58,
+            "labor_vat_amount": 70.38,
+            "total_vat_amount": 78.96,
+            "total_with_vat": 938.76,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Shower base",
+                "cost": 120,
+                "vat_rate": 0.055,
+                "vat_amount": 6.6,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Waterproofing membrane",
+                "cost": 36,
+                "vat_rate": 0.055,
+                "vat_amount": 1.98,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          }
+        ],
+        "materials_vat_total": 11.33,
+        "labor_vat_total": 116.84,
+        "total_vat": 128.17,
+        "effective_vat_rate": 0.09325523864959255
+      },
+      "margin_breakdown": {
+        "materials_margin_rate": 0.23,
+        "labor_margin_rate": 0.173,
+        "materials_margin": 47.38,
+        "labor_margin": 201.55,
+        "additional_margin": 237.08,
+        "total_margin": 486.01,
+        "budget_adjustment": 0.0,
+        "complexity_adjustment": 0.1,
+        "location_multiplier": 1.15
+      },
+      "pricing_breakdown": {
+        "subtotal": 1374.4,
+        "margin": 486.01,
+        "subtotal_with_margin": 1860.41,
+        "vat_amount": 128.17,
+        "final_price": 1988.58
+      }
+    },
+    {
+      "task_id": "task_2",
+      "task_name": "Replace sink and mirror cabinet",
+      "objectives": [
+        {
+          "objective_id": "obj_3",
+          "description": "Remove old sink and cabinet",
+          "labor_difficulty": 1,
+          "materials_required": [],
+          "miscellaneous_materials": [
+            {
+              "material": "Screwdriver",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Screwdriver (fallback data)",
+              "included_in_pricing": false
+            },
+            {
+              "material": "Basin wrench",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Basin wrench (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 2,
+          "confidence_score": 0.85,
+          "cost_breakdown": {
+            "materials_cost": 0,
+            "miscellaneous_cost": 100,
+            "total_materials_cost": 0,
+            "misc_cost_excluded": true,
+            "labor_cost": 59.224999999999994,
+            "total_cost": 59.224999999999994
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 1,
+            "difficulty_description": "Basic tasks - cleaning and simple maintenance",
+            "estimated_hours": 2,
+            "base_hourly_rate": 25.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 25.0,
+            "regional_multiplier": 1.15,
+            "regional_hourly_rate": 28.75,
+            "confidence_adjustment": 1.03,
+            "final_hourly_rate": 29.61,
+            "total_labor_cost": 59.22
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_3",
+            "description": "Remove old sink and cabinet",
+            "materials_cost": 0,
+            "labor_cost": 59.224999999999994,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 0.0,
+            "labor_vat_amount": 5.922499999999999,
+            "total_vat_amount": 5.922499999999999,
+            "total_with_vat": 65.1475,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": []
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.144,
+            "margin_amount": 8.53
+          },
+          "pricing_breakdown": {
+            "subtotal": 59.22,
+            "margin": 8.53,
+            "subtotal_with_margin": 67.75,
+            "vat_amount": 5.92,
+            "final_price": 73.68
+          }
+        },
+        {
+          "objective_id": "obj_4",
+          "description": "Install new sink and mirror cabinet",
+          "labor_difficulty": 2,
+          "materials_required": [
+            {
+              "material": "Sink",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Sink (fallback data)",
+              "included_in_pricing": true
+            },
+            {
+              "material": "Mirror cabinet",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Mirror cabinet (fallback data)",
+              "included_in_pricing": true
+            }
+          ],
+          "miscellaneous_materials": [
+            {
+              "material": "Mounting brackets",
+              "quantity": 2,
+              "unit": "set",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 100,
+              "description": "Estimated pricing for Mounting brackets (fallback data)",
+              "included_in_pricing": false
+            },
+            {
+              "material": "Silicone caulk",
+              "quantity": 1,
+              "unit": "tube",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Silicone caulk (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 4,
+          "confidence_score": 0.8,
+          "cost_breakdown": {
+            "materials_cost": 100,
+            "miscellaneous_cost": 150,
+            "total_materials_cost": 100,
+            "misc_cost_excluded": true,
+            "labor_cost": 167.44,
+            "total_cost": 267.44
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 2,
+            "difficulty_description": "Medium tasks - installations and standard repairs",
+            "estimated_hours": 4,
+            "base_hourly_rate": 35.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 35.0,
+            "regional_multiplier": 1.15,
+            "regional_hourly_rate": 40.25,
+            "confidence_adjustment": 1.04,
+            "final_hourly_rate": 41.86,
+            "total_labor_cost": 167.44
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_4",
+            "description": "Install new sink and mirror cabinet",
+            "materials_cost": 100,
+            "labor_cost": 167.44,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 5.5,
+            "labor_vat_amount": 16.744,
+            "total_vat_amount": 22.244,
+            "total_with_vat": 289.68399999999997,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Sink",
+                "cost": 50,
+                "vat_rate": 0.055,
+                "vat_amount": 2.75,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Mirror cabinet",
+                "cost": 50,
+                "vat_rate": 0.055,
+                "vat_amount": 2.75,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.144,
+            "margin_amount": 38.51
+          },
+          "pricing_breakdown": {
+            "subtotal": 267.44,
+            "margin": 38.51,
+            "subtotal_with_margin": 305.95,
+            "vat_amount": 22.24,
+            "final_price": 328.2
+          }
+        }
+      ],
+      "estimated_complexity": "medium",
+      "timeline_mentions": "not specified",
+      "total_materials_cost": 100,
+      "total_labor_cost": 226.66,
+      "total_cost": 326.66499999999996,
+      "vat_breakdown": {
+        "work_type": "renovation",
+        "country": "france",
+        "objectives": [
+          {
+            "objective_id": "obj_3",
+            "description": "Remove old sink and cabinet",
+            "materials_cost": 0,
+            "labor_cost": 59.224999999999994,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 0.0,
+            "labor_vat_amount": 5.922499999999999,
+            "total_vat_amount": 5.922499999999999,
+            "total_with_vat": 65.1475,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": []
+          },
+          {
+            "objective_id": "obj_4",
+            "description": "Install new sink and mirror cabinet",
+            "materials_cost": 100,
+            "labor_cost": 167.44,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 5.5,
+            "labor_vat_amount": 16.744,
+            "total_vat_amount": 22.244,
+            "total_with_vat": 289.68399999999997,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": [
+              {
+                "material": "Sink",
+                "cost": 50,
+                "vat_rate": 0.055,
+                "vat_amount": 2.75,
+                "rate_type": "reduced_materials"
+              },
+              {
+                "material": "Mirror cabinet",
+                "cost": 50,
+                "vat_rate": 0.055,
+                "vat_amount": 2.75,
+                "rate_type": "reduced_materials"
+              }
+            ]
+          }
+        ],
+        "materials_vat_total": 5.5,
+        "labor_vat_total": 22.6665,
+        "total_vat": 28.1665,
+        "effective_vat_rate": 0.08622441951234446
+      },
+      "margin_breakdown": {
+        "materials_margin_rate": 0.173,
+        "labor_margin_rate": 0.115,
+        "materials_margin": 17.25,
+        "labor_margin": 26.07,
+        "additional_margin": 56.35,
+        "total_margin": 99.66,
+        "budget_adjustment": 0.0,
+        "complexity_adjustment": 0.05,
+        "location_multiplier": 1.15
+      },
+      "pricing_breakdown": {
+        "subtotal": 326.66,
+        "margin": 99.66,
+        "subtotal_with_margin": 426.32,
+        "vat_amount": 28.17,
+        "final_price": 454.49
+      }
+    },
+    {
+      "task_id": "task_3",
+      "task_name": "Select space-saving fixtures",
+      "objectives": [
+        {
+          "objective_id": "obj_5",
+          "description": "Provide consultation on efficient fixtures",
+          "labor_difficulty": 1,
+          "materials_required": [],
+          "miscellaneous_materials": [
+            {
+              "material": "Fixture catalog",
+              "quantity": 1,
+              "unit": "unit",
+              "unit_price": 50,
+              "unit_quantity": 1,
+              "price_unit": "pcs",
+              "total_cost": 50,
+              "description": "Estimated pricing for Fixture catalog (fallback data)",
+              "included_in_pricing": false
+            }
+          ],
+          "estimated_time": 2,
+          "confidence_score": 0.7,
+          "cost_breakdown": {
+            "materials_cost": 0,
+            "miscellaneous_cost": 50,
+            "total_materials_cost": 0,
+            "misc_cost_excluded": true,
+            "labor_cost": 60.949999999999996,
+            "total_cost": 60.949999999999996
+          },
+          "labor_cost_breakdown": {
+            "difficulty_level": 1,
+            "difficulty_description": "Basic tasks - cleaning and simple maintenance",
+            "estimated_hours": 2,
+            "base_hourly_rate": 25.0,
+            "skill_multiplier": 1.0,
+            "complexity_factor": 1.0,
+            "effective_hourly_rate": 25.0,
+            "regional_multiplier": 1.15,
+            "regional_hourly_rate": 28.75,
+            "confidence_adjustment": 1.06,
+            "final_hourly_rate": 30.47,
+            "total_labor_cost": 60.95
+          },
+          "vat_breakdown": {
+            "objective_id": "obj_5",
+            "description": "Provide consultation on efficient fixtures",
+            "materials_cost": 0,
+            "labor_cost": 60.949999999999996,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 0.0,
+            "labor_vat_amount": 6.095,
+            "total_vat_amount": 6.095,
+            "total_with_vat": 67.045,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": []
+          },
+          "margin_breakdown": {
+            "margin_rate": 0.086,
+            "margin_amount": 5.24
+          },
+          "pricing_breakdown": {
+            "subtotal": 60.95,
+            "margin": 5.24,
+            "subtotal_with_margin": 66.19,
+            "vat_amount": 6.09,
+            "final_price": 72.29
+          }
+        }
+      ],
+      "estimated_complexity": "low",
+      "timeline_mentions": "not specified",
+      "total_materials_cost": 0,
+      "total_labor_cost": 60.95,
+      "total_cost": 60.949999999999996,
+      "vat_breakdown": {
+        "work_type": "renovation",
+        "country": "france",
+        "objectives": [
+          {
+            "objective_id": "obj_5",
+            "description": "Provide consultation on efficient fixtures",
+            "materials_cost": 0,
+            "labor_cost": 60.949999999999996,
+            "materials_vat_rate": 0.055,
+            "labor_vat_rate": 0.1,
+            "materials_vat_amount": 0.0,
+            "labor_vat_amount": 6.095,
+            "total_vat_amount": 6.095,
+            "total_with_vat": 67.045,
+            "materials_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.055,
+              "rate_type": "reduced_materials",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation materials in France"
+            },
+            "labor_vat_info": {
+              "base_rate": 0.2,
+              "applied_rate": 0.1,
+              "rate_type": "reduced_renovation",
+              "reductions": [],
+              "explanation": "Reduced VAT rate for renovation labor in France"
+            },
+            "material_details": []
+          }
+        ],
+        "materials_vat_total": 0.0,
+        "labor_vat_total": 6.095,
+        "total_vat": 6.095,
+        "effective_vat_rate": 0.1
+      },
+      "margin_breakdown": {
+        "materials_margin_rate": 0.115,
+        "labor_margin_rate": 0.057,
+        "materials_margin": 0.0,
+        "labor_margin": 3.5,
+        "additional_margin": 10.51,
+        "total_margin": 14.02,
+        "budget_adjustment": 0.0,
+        "complexity_adjustment": 0.0,
+        "location_multiplier": 1.15
+      },
+      "pricing_breakdown": {
+        "subtotal": 60.95,
+        "margin": 14.02,
+        "subtotal_with_margin": 74.97,
+        "vat_amount": 6.09,
+        "final_price": 81.06
+      }
+    }
+  ],
+  "budget_level": 1,
+  "budget_notes": "Budget explicitly stated as moderate",
+  "location": "Lyon, Auvergne-Rhône-Alpes, France",
+  "client_preferences": [
+    "Modernized fixtures",
+    "Space-saving solutions"
+  ],
+  "urgency_level": "low",
+  "project_scope": "medium",
+  "special_requirements": [
+    "Efficient use of limited space (3.5 sqm)",
+    "Focus on modernization over luxury"
+  ],
+  "contact_details": {
+    "name": "not specified",
+    "phone": "not specified",
+    "email": "not specified"
+  },
+  "additional_notes": "Bathroom size implies potential plumbing/electrical constraints for fixture placement",
+  "pricing_summary": {
+    "total_materials_cost": 306,
+    "currency": "EUR",
+    "pricing_date": "2025-07-13",
+    "materials_priced": 14,
+    "materials_missing_pricing": 0,
+    "miscellaneous_costs_included": false,
+    "total_labor_cost": 1456.01,
+    "total_project_cost": 1762.0149999999999,
+    "location": "Lyon, Auvergne-Rhône-Alpes, France",
+    "regional_multiplier": 1.15,
+    "total_margin": 599.69,
+    "subtotal_with_margin": 2361.7,
+    "total_vat": 162.43,
+    "final_project_cost": 2524.14,
+    "country": "france",
+    "budget_level": 1
+  }
+}
