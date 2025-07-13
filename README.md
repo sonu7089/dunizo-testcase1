@@ -48,6 +48,7 @@ This project is a Python-based pricing engine for bathroom renovation projects. 
 Create a `.env` file in the project root with the following content:
 
 OPENROUTER_API_KEY=your_openrouter_api_key_here
+OPENROUTER_MODEL=your_choice_of_model
 
 This key is required for API access and should never be hardcoded in the codebase.
 
